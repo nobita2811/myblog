@@ -32,68 +32,6 @@
         "homepage": "http://vfs.bovigo.org/"
     },
     {
-        "name": "cocur/slugify",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/cocur/slugify.git",
-            "reference": "968714eb205d8b6da2fd71eb9a441cf937798763"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/cocur/slugify/zipball/968714eb205d8b6da2fd71eb9a441cf937798763",
-            "reference": "968714eb205d8b6da2fd71eb9a441cf937798763",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3"
-        },
-        "require-dev": {
-            "codeclimate/php-test-reporter": "dev-master",
-            "laravel/framework": "~4.1",
-            "mockery/mockery": "~0.9",
-            "phpunit/phpunit": "~3.7",
-            "sami/sami": "~1.3",
-            "satooshi/php-coveralls": "0.6.*",
-            "silex/silex": "~1.2",
-            "symfony/dependency-injection": "~2.4",
-            "symfony/http-kernel": "~2.4",
-            "twig/twig": "~1",
-            "zendframework/zend-modulemanager": "~2.2",
-            "zendframework/zend-servicemanager": "~2.2",
-            "zendframework/zend-view": "~2.2"
-        },
-        "time": "2015-01-13 21:03:03",
-        "type": "library",
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "Cocur\\Slugify\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Ivo Bathke",
-                "email": "ivo.bathke@gmail.com"
-            },
-            {
-                "name": "Florian Eckerstorfer",
-                "email": "florian@eckerstorfer.co",
-                "homepage": "https://florian.ec"
-            }
-        ],
-        "description": "Converts a string into a slug.",
-        "keywords": [
-            "slug",
-            "slugify"
-        ]
-    },
-    {
         "name": "composer/installers",
         "version": "v1.0.19",
         "version_normalized": "1.0.19.0",
@@ -823,8 +761,70 @@
         "extra": {
             "installer-name": "Doctrine"
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",
         "description": "CodeIgniter Wrapper for the Doctrine ORM"
+    },
+    {
+        "name": "cocur/slugify",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cocur/slugify.git",
+            "reference": "968714eb205d8b6da2fd71eb9a441cf937798763"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cocur/slugify/zipball/968714eb205d8b6da2fd71eb9a441cf937798763",
+            "reference": "968714eb205d8b6da2fd71eb9a441cf937798763",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "dev-master",
+            "laravel/framework": "~4.1",
+            "mockery/mockery": "~0.9",
+            "phpunit/phpunit": "~3.7",
+            "sami/sami": "~1.3",
+            "satooshi/php-coveralls": "0.6.*",
+            "silex/silex": "~1.2",
+            "symfony/dependency-injection": "~2.4",
+            "symfony/http-kernel": "~2.4",
+            "twig/twig": "~1",
+            "zendframework/zend-modulemanager": "~2.2",
+            "zendframework/zend-servicemanager": "~2.2",
+            "zendframework/zend-view": "~2.2"
+        },
+        "time": "2015-01-13 21:03:03",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Cocur\\Slugify\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ivo Bathke",
+                "email": "ivo.bathke@gmail.com"
+            },
+            {
+                "name": "Florian Eckerstorfer",
+                "email": "florian@eckerstorfer.co",
+                "homepage": "https://florian.ec"
+            }
+        ],
+        "description": "Converts a string into a slug.",
+        "keywords": [
+            "slug",
+            "slugify"
+        ]
     }
 ]
