@@ -7,12 +7,7 @@ class Role_model extends Base_model {
     }
 
     public function getListRole() {
-        try {
-            return $this->em->getRepository('Entity\Roles')->findAll();
-        } catch (Exception $e) {
-            echo $e->getTraceAsString();
-            die;
-        }
+        return $this->em->getRepository('Entity\Roles')->findAll();
     }
 
 }

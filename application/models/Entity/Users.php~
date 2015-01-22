@@ -1,0 +1,98 @@
+<?php
+
+
+
+namespace Entity;
+
+/**
+ * Users
+ *
+ * @Table(name="users")
+ * @Entity
+ */
+class Users
+{
+    /**
+     * @var integer
+     *
+     * @Column(name="id", type="integer", nullable=false)
+     * @Id
+     * @GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @Column(name="username", type="string", length=20, nullable=true)
+     */
+    private $username;
+
+    /**
+     * @var string
+     *
+     * @Column(name="password", type="string", length=50, nullable=true)
+     */
+    private $password;
+
+    /**
+     * @var string
+     *
+     * @Column(name="email", type="string", length=300, nullable=true)
+     */
+    private $email;
+
+    /**
+     * @var string
+     *
+     * @Column(name="full_name", type="string", length=300, nullable=true)
+     */
+    private $fullName;
+
+    /**
+     * @var string
+     *
+     * @Column(name="work", type="string", length=300, nullable=true)
+     */
+    private $work;
+
+    /**
+     * @var integer
+     *
+     * @Column(name="age", type="integer", nullable=true)
+     */
+    private $age;
+
+    /**
+     * @var integer
+     *
+     * @Column(name="gender", type="integer", nullable=true)
+     */
+    private $gender;
+
+    /**
+     * @var \DateTime
+     *
+     * @Column(name="created", type="datetime", nullable=true)
+     */
+    private $created;
+
+    /**
+     * @var \DateTime
+     *
+     * @Column(name="modified", type="datetime", nullable=true)
+     */
+    private $modified;
+
+    /**
+     * @var \Roles
+     *
+     * @ManyToOne(targetEntity="Roles")
+     * @JoinColumns({
+     *   @JoinColumn(name="role_id", referencedColumnName="id")
+     * })
+     */
+    private $role;
+
+
+}

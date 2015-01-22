@@ -1,0 +1,77 @@
+<?php
+
+
+
+namespace Entity;
+
+/**
+ * Files
+ *
+ * @Table(name="files")
+ * @Entity
+ */
+class Files
+{
+    /**
+     * @var integer
+     *
+     * @Column(name="id", type="integer", nullable=false)
+     * @Id
+     * @GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @Column(name="file_name", type="string", length=300, nullable=true)
+     */
+    private $fileName;
+
+    /**
+     * @var string
+     *
+     * @Column(name="file_path", type="string", length=300, nullable=true)
+     */
+    private $filePath;
+
+    /**
+     * @var string
+     *
+     * @Column(name="file_type", type="string", length=5, nullable=true)
+     */
+    private $fileType;
+
+    /**
+     * @var float
+     *
+     * @Column(name="file_size", type="float", nullable=true)
+     */
+    private $fileSize;
+
+    /**
+     * @var integer
+     *
+     * @Column(name="views", type="integer", nullable=true)
+     */
+    private $views;
+
+    /**
+     * @var \DateTime
+     *
+     * @Column(name="created", type="datetime", nullable=true)
+     */
+    private $created;
+
+    /**
+     * @var \Users
+     *
+     * @ManyToOne(targetEntity="Users")
+     * @JoinColumns({
+     *   @JoinColumn(name="user_id", referencedColumnName="id")
+     * })
+     */
+    private $user;
+
+
+}

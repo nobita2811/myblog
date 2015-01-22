@@ -21,7 +21,9 @@ class Doctrine {
 
     $doctrineClassLoader = new ClassLoader('Doctrine',  APPPATH.'libraries');
     $doctrineClassLoader->register();
-    $entitiesClassLoader = new ClassLoader('models', rtrim(APPPATH, "/" ));
+//    $entitiesClassLoader = new ClassLoader('models', rtrim(APPPATH, "/" ));
+//    $entitiesClassLoader->register();
+    $entitiesClassLoader = new ClassLoader('Entity', rtrim(APPPATH . 'models', "/" ));
     $entitiesClassLoader->register();
     $proxiesClassLoader = new ClassLoader('Proxies', APPPATH.'models/proxies');
     $proxiesClassLoader->register();

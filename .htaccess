@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond $1 !^(index\.php|images|genghis|phpmyadmin|css|audios|style|js|mp3|robots\.txt|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} !^(.*)\.(gif|png|jpg|jpeg|html|css|js|mp3|zip|tgz|wav|eot|svg|ttf|woff|woff2)$ [NC]
+#RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteRule ^(.*)$ /myblog/index.php/$1 [L]

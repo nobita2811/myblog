@@ -1,0 +1,39 @@
+<?php
+
+
+
+namespace Entity;
+
+/**
+ * Roles
+ *
+ * @Table(name="roles")
+ * @Entity
+ */
+class Roles
+{
+    /**
+     * @var integer
+     *
+     * @Column(name="id", type="integer", nullable=false)
+     * @Id
+     * @GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @Column(name="name", type="string", length=300, nullable=true)
+     */
+    private $name;
+
+    /**
+     * @var string
+     *
+     * @Column(name="permission", type="string", length=2000, nullable=true)
+     */
+    private $permission;
+
+
+}

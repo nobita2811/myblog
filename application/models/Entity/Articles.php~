@@ -1,0 +1,105 @@
+<?php
+
+
+
+namespace Entity;
+
+/**
+ * Articles
+ *
+ * @Table(name="articles")
+ * @Entity
+ */
+class Articles
+{
+    /**
+     * @var integer
+     *
+     * @Column(name="id", type="integer", nullable=false)
+     * @Id
+     * @GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @Column(name="title", type="string", length=300, nullable=true)
+     */
+    private $title;
+
+    /**
+     * @var string
+     *
+     * @Column(name="slug_name", type="string", length=300, nullable=true)
+     */
+    private $slugName;
+
+    /**
+     * @var string
+     *
+     * @Column(name="content", type="text", nullable=true)
+     */
+    private $content;
+
+    /**
+     * @var integer
+     *
+     * @Column(name="views", type="integer", nullable=true)
+     */
+    private $views;
+
+    /**
+     * @var integer
+     *
+     * @Column(name="sticky", type="integer", nullable=true)
+     */
+    private $sticky;
+
+    /**
+     * @var string
+     *
+     * @Column(name="summary", type="string", length=2000, nullable=true)
+     */
+    private $summary;
+
+    /**
+     * @var string
+     *
+     * @Column(name="origin_source", type="string", length=300, nullable=true)
+     */
+    private $originSource;
+
+    /**
+     * @var integer
+     *
+     * @Column(name="file_id", type="integer", nullable=true)
+     */
+    private $fileId;
+
+    /**
+     * @var \DateTime
+     *
+     * @Column(name="created", type="datetime", nullable=true)
+     */
+    private $created;
+
+    /**
+     * @var \DateTime
+     *
+     * @Column(name="modified", type="datetime", nullable=true)
+     */
+    private $modified;
+
+    /**
+     * @var \Users
+     *
+     * @ManyToOne(targetEntity="Users")
+     * @JoinColumns({
+     *   @JoinColumn(name="user_id", referencedColumnName="id")
+     * })
+     */
+    private $user;
+
+
+}
