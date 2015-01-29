@@ -5,6 +5,8 @@
                         <script src="<?= getJs('jquery.min') ?>"></script>
                         <script src="<?= getJs('bootstrap.min') ?>"></script>
                         <script src="<?= getJs('common') ?>"></script>
+                        <script src="<?php getJs('ckeditor/ckeditor'); ?>" type="text/javascript"></script>
+                        <script src="<?php getJs('ckeditor/adapters/jquery'); ?>" type="text/javascript"></script>
                     </div>
                 </footer>
                 </div>

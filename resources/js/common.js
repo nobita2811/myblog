@@ -51,6 +51,7 @@ $(function () {
     });
     $('[data-toggle="tooltip"]').tooltip();
 
+    $('.editor').ckeditor();
     $('#myAffix').affix({
         offset: {
             top: -50,
