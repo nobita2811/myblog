@@ -43,8 +43,14 @@ class Welcome extends MY_Controller {
     public function index() {
         $this->load->model('role_model');
         $data['roles'] = $this->role_model->getListRole();
-        echo count($data['roles']);
+        $this->load->view('layout/header');
         $this->load->view('welcome_message');
+        $this->load->view('welcome_message');
+        $this->load->view('welcome_message');
+        $this->load->view('welcome_message');
+        $this->load->view('welcome_message');
+        $this->load->view('welcome_message');
+        $this->load->view('layout/footer');
     }
 
 }

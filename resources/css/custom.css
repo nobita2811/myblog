@@ -9,7 +9,9 @@ and open the template in the editor.
 */
 
 body { 
-    padding-top: 70px; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    background: #DADFE1;
 }
 
 /*
@@ -50,6 +52,7 @@ body {
 .clickable{
     cursor: pointer;   
 }
+<<<<<<< HEAD
 
 .panel-heading div {
     margin-top: -18px;
@@ -67,4 +70,26 @@ body {
     border-radius: 5px;
     padding: 5px;
     background: #D9EDF7;
+=======
+
+.panel-heading div {
+    margin-top: -18px;
+    font-size: 15px;
+}
+.panel-heading div span{
+    margin-left:5px;
+}
+.panel-body{
+    display: none;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    background: #2C3E50;
+    color: #E0E0E0;
+    width: 100%;
+}
+.main-wrapper {
+    background: #FFFFFF;
+>>>>>>> origin/master
 }
