@@ -16,8 +16,8 @@
                 <table class="table table-hover" id="dev-table">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Slug Name</th>
+                            <th>Tên đăng nhập</th>
+                            <th>Email</th>
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -26,11 +26,11 @@
                         foreach ($datas AS $item) {
                             echo '
                                 <tr>
-                                    <td>'.$item->getName().'</td>
-                                    <td>'.$item->getSlugName().'</td>
+                                    <td>'.$item->getUsername().'</td>
+                                    <td>'.$item->getEmail().'</td>
                                     <td>
-                                        <a class="button-link" href="'.  $deleteLink . '/' . $item->getSlugName().'">Delete</a> '
-                                    . '<a class="button-link" href="'.  $deleteEdit . '/' . $item->getSlugName().'">Edit</a></td>
+                                        <a class="button-link" href="'.  $deleteLink . '/' . $item->getUsername().'">Delete</a> '
+                                    . '<a class="button-link" href="'.  $deleteEdit . '/' . $item->getUsername().'">Edit</a></td>
                                 </tr>
                                 ';
                         }

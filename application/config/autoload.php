@@ -112,7 +112,7 @@ $autoload['libraries'] = array('doctrine', 'doctrine/doctrine_entity');
 |	$autoload['drivers'] = array('session', 'cache');
 */
 
-$autoload['drivers'] = array();
+$autoload['drivers'] = array('session');
 
 
 /*

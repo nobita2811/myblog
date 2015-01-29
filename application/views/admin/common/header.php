@@ -28,5 +28,10 @@
     <body>
         <div class="container-fluid">
             <?php $this->load->view('admin/common/nav'); ?>
+            <?php if($this->session->flashdata('result')) : ?>
+            <div class="alert alert-success">
+                <?= $this->session->flashdata('result'); ?>
+            </div>
+            <?php endif; ?>
             <div class="container-fluid">
               <div class="row">

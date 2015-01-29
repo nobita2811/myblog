@@ -817,19 +817,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/tracy.git",
-                "reference": "055cf99b8facdd5d1b68e10e743aba74944c568e"
+                "reference": "71f9545ede28b4e6a1ade8653598b0251d84ce39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/tracy/zipball/055cf99b8facdd5d1b68e10e743aba74944c568e",
-                "reference": "055cf99b8facdd5d1b68e10e743aba74944c568e",
+                "url": "https://api.github.com/repos/nette/tracy/zipball/71f9545ede28b4e6a1ade8653598b0251d84ce39",
+                "reference": "71f9545ede28b4e6a1ade8653598b0251d84ce39",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.1"
             },
             "require-dev": {
-                "nette/tester": "~1.0"
+                "nette/di": "~2.3",
+                "nette/tester": "~1.3"
             },
             "type": "library",
             "extra": {
@@ -839,7 +840,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/Tracy"
+                    "src"
                 ],
                 "files": [
                     "src/shortcuts.php"
@@ -868,7 +869,7 @@
                 "debugger",
                 "nette"
             ],
-            "time": "2015-01-12 20:46:55"
+            "time": "2015-01-27 12:35:53"
         }
     ],
     "aliases": [],

@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'Tracy\\Bar' => $vendorDir . '/tracy/tracy/src/Tracy/Bar.php',
     'Tracy\\BlueScreen' => $vendorDir . '/tracy/tracy/src/Tracy/BlueScreen.php',
+    'Tracy\\Bridges\\DI\\TracyExtension' => $vendorDir . '/tracy/tracy/src/Bridges/DI/TracyExtension.php',
     'Tracy\\Debugger' => $vendorDir . '/tracy/tracy/src/Tracy/Debugger.php',
     'Tracy\\DefaultBarPanel' => $vendorDir . '/tracy/tracy/src/Tracy/DefaultBarPanel.php',
     'Tracy\\Dumper' => $vendorDir . '/tracy/tracy/src/Tracy/Dumper.php',
