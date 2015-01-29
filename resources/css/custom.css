@@ -52,7 +52,6 @@ body {
 .clickable{
     cursor: pointer;   
 }
-<<<<<<< HEAD
 
 .panel-heading div {
     margin-top: -18px;
@@ -70,7 +69,7 @@ body {
     border-radius: 5px;
     padding: 5px;
     background: #D9EDF7;
-=======
+}
 
 .panel-heading div {
     margin-top: -18px;
@@ -91,5 +90,4 @@ body {
 }
 .main-wrapper {
     background: #FFFFFF;
->>>>>>> origin/master
 }
