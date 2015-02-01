@@ -2,6 +2,18 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/xampp/htdocs/myblog/resources/css/custom.css</file>
+            <file>file:/C:/xampp/htdocs/myblog/application/helpers/link_helper.php</file>
+            <file>file:/C:/xampp/htdocs/myblog/application/controllers/Welcome.php</file>
+            <file>file:/C:/xampp/htdocs/myblog/application/core/MY_Controller.php</file>
+            <file>file:/C:/xampp/htdocs/myblog/application/controllers/admin/Articles.php</file>
+            <file>file:/C:/xampp/htdocs/myblog/application/views/welcome_message.php</file>
+            <file>file:/C:/xampp/htdocs/myblog/application/models/Entity/Articles.php</file>
+            <file>file:/C:/xampp/htdocs/myblog/application/views/layout/pagination.php</file>
+            <file>file:/C:/xampp/htdocs/myblog/application/views/layout/sidebar.php</file>
+            <file>file:/C:/xampp/htdocs/myblog/application/models/Article_model.php</file>
+            <file>file:/C:/xampp/htdocs/myblog/application/views/login.php</file>
+        </group>
     </open-files>
 </project-private>

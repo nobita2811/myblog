@@ -69,11 +69,14 @@ class Articles {
     private $originSource;
 
     /**
-     * @var integer
+     * @var \Files
      *
-     * @Column(name="file_id", type="integer", nullable=true)
+     * @ManyToOne(targetEntity="Files")
+     * @JoinColumns({
+     *   @JoinColumn(name="file_id", referencedColumnName="id")
+     * })
      */
-    private $fileId;
+    private $file;
 
     /**
      * @var \DateTime
@@ -256,27 +259,6 @@ class Articles {
     }
 
     /**
-     * Set fileId
-     *
-     * @param integer $fileId
-     * @return Articles
-     */
-    public function setFileId($fileId) {
-        $this->fileId = $fileId;
-
-        return $this;
-    }
-
-    /**
-     * Get fileId
-     *
-     * @return integer 
-     */
-    public function getFileId() {
-        return $this->fileId;
-    }
-
-    /**
      * Set created
      *
      * @param \DateTime $created
@@ -337,6 +319,27 @@ class Articles {
      */
     public function getUser() {
         return $this->user;
+    }
+
+    /**
+     * Set file
+     *
+     * @param \Entity\Files $file
+     * @return Articles
+     */
+    public function setFile(\Entity\Files $file = null) {
+        $this->file = $file;
+
+        return $this;
+    }
+
+    /**
+     * Get file
+     *
+     * @return \Entity\Files
+     */
+    public function getFile() {
+        return $this->file;
     }
 
 }

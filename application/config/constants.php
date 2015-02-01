@@ -121,6 +121,11 @@ define('EXIT_DATABASE', 8); // database error
 define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
+
+define('DS', DIRECTORY_SEPARATOR);
+define('RS', 'resources' . DS);
+define('RESOURCE_PATH', FCPATH . RS);
+
 // for template
 define('TITLE', 'Tran Phu :: ' . date('d-m-Y'));
 define('DESCRIPTIONS', 'php,domain,hosting');

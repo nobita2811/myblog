@@ -26,9 +26,9 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Article <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="'admin/articles/index'">Statistic</a></li>
+                                <li><a href="<?= base_url('admin/articles/index'); ?>">Statistic</a></li>
                                 <li class="divider"></li>
-                                <li><a href="'admin/articles/add'">Add new article</a></li>
+                                <li><a href="<?= base_url('admin/articles/add'); ?>">Add new article</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
