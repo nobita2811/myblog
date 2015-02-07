@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
             <div class="panel panel-primary">
                 <div class="panel-heading">
                     <h3 class="panel-title">Danh sách các nhóm danh mục</h3>
@@ -18,6 +18,9 @@
                         <tr>
                             <th>Tên đăng nhập</th>
                             <th>Email</th>
+                            <th>Ip Address</th>
+                            <th>Company</th>
+                            <th>Phone</th>
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -28,6 +31,9 @@
                                 <tr>
                                     <td>'.$item->getUsername().'</td>
                                     <td>'.$item->getEmail().'</td>
+                                    <td>'.$item->getIpAddress(). '<br>' . ip_info($item->getIpAddress(), "Address").'</td>
+                                    <td>'.$item->getCompany().'</td>
+                                    <td>'.$item->getPhone().'</td>
                                     <td>
                                         <a class="button-link" href="'.  $deleteLink . '/' . $item->getUsername().'">Delete</a> '
                                     . '<a class="button-link" href="'.  $deleteEdit . '/' . $item->getUsername().'">Edit</a></td>

@@ -19,14 +19,20 @@ class Articles extends MY_Controller {
     public function add() {
         $this->load->view('admin/common/header');
         $data['action'] = base_url('admin/articles/add');
+        $categories = $this->article_model->getListCategory();
+        $data['categories'] = array_keys($categories);
+        $tags = $this->article_model->getListTag();
+        $data['tags'] = array_keys($tags);
         $this->load->view('admin/article/add', $data);
+        
         if($this->input->post()) {
             $this->load->library('upload', $this->configUpload);
-            $this->article_model->save($this->input->post());
+            $this->article_model->save($this->input->post(), $categories, $tags);
             $this->session->set_flashdata('result', 'success');
             redirect('admin/articles/index');
         }
         $this->load->view('admin/common/footer', $data);
+        $this->load->view('admin/article/addjs', $data);
     }
 
     public function delete($slug_name) {
@@ -42,16 +48,30 @@ class Articles extends MY_Controller {
         $this->load->view('admin/common/header');
         $data['action'] = base_url('admin/articles/edit/' . $slug_name);
         $data['article'] = $this->article_model->getBySlugName($slug_name);
+        $categories = $this->article_model->getListCategory();
+        $data['categories'] = array_keys($categories);
+        $tags = $this->article_model->getListTag();
+        $data['tags'] = array_keys($tags);
+        
+        foreach($data['article']->getCategories() AS $cat) {
+            $data['articleCategories'][] = $cat->getCategory()->getName();
+        }
+        foreach($data['article']->getTags() AS $cat) {
+            $data['articleTags'][] = $cat->getTag()->getName();
+        }
         $this->load->view('admin/article/edit', $data);
+
         if($this->input->post()) {
-            if($this->article_model->edit($this->input->post(), $data['article'])) {
+            $this->load->library('upload', $this->configUpload);
+            if($this->article_model->edit($this->input->post(), $data['article'], $categories, $tags)) {
                 $this->session->set_flashdata('result', 'success');
             } else {
                 $this->session->set_flashdata('result', 'fail');                
             }
             redirect('admin/articles/index');
         }
-        $this->load->view('admin/common/footer', $data);        
+        $this->load->view('admin/common/footer', $data);
+        $this->load->view('admin/article/addjs', $data);      
     }
 
 }

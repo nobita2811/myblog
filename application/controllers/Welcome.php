@@ -44,7 +44,7 @@ class Welcome extends MY_Controller {
         $this->load->model('article_model');
         $this->load->library('pagination');
         $totalRecord = $this->article_model->countAllArticle();
-        $perPage = 2;
+        $perPage = $this->config->config['per_page'];
         $config = $this->configPagination;
         $config['base_url'] = base_url('Welcome/index/');
         $config['total_rows'] = $totalRecord;

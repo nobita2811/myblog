@@ -18,7 +18,12 @@
         <link rel="canonical" href="<?= base_url(); ?>">
 
         <!-- Site CSS -->
+        <link href="<?= getCss('jquery-ui.min') ?>" rel="stylesheet" type="text/css">
         <link href="<?= getCss('bootstrap.min') ?>" rel="stylesheet" type="text/css">
+        <link href="<?= getCss('bootstrap-tokenfield.min') ?>" rel="stylesheet" type="text/css">
+        <link href="<?= getCss('tokenfield-typeahead.min') ?>" rel="stylesheet" type="text/css">
+        <link href="<?= getCss('jquery.dataTables.min') ?>" rel="stylesheet" type="text/css">
+        <link href="<?= getCss('jquery.dataTables_themeroller') ?>" rel="stylesheet" type="text/css">
         <link href="<?= getCss('custom') ?>" rel="stylesheet" type="text/css">
 
         <!-- Site Fonts -->

@@ -2,6 +2,8 @@
 
 namespace Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+
 /**
  * Articles
  *
@@ -101,7 +103,26 @@ class Articles {
      * })
      */
     private $user;
+    
+    /**
+     * @var \ArticleCategories
+     *
+     * @OneToMany(targetEntity="ArticleCategories", mappedBy="article", cascade={"remove"})
+     */
+    private $categories;
+    
+    /**
+     * @var \ArticleTags
+     *
+     * @OneToMany(targetEntity="ArticleTags", mappedBy="article", cascade={"remove"})
+     */
+    private $tags;
 
+    public function __construct() {        
+        $this->tags = new ArrayCollection();
+        $this->categories = new ArrayCollection();
+    }
+    
     /**
      * Get id
      *
@@ -329,7 +350,7 @@ class Articles {
      */
     public function setFile(\Entity\Files $file = null) {
         $this->file = $file;
-
+        
         return $this;
     }
 
@@ -340,6 +361,24 @@ class Articles {
      */
     public function getFile() {
         return $this->file;
+    }
+
+    /**
+     * Get ArticleCategories
+     *
+     * @return \Entity\ArticleCategories
+     */
+    public function getCategories() {
+        return $this->categories->toArray();
+    }
+
+    /**
+     * Get ArticleTags
+     *
+     * @return \Entity\ArticleTags
+     */
+    public function getTags() {
+        return $this->tags->toArray();
     }
 
 }

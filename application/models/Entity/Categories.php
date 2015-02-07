@@ -2,6 +2,8 @@
 
 namespace Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+
 /**
  * Categories
  *
@@ -32,7 +34,18 @@ class Categories {
      * @Column(name="slug_name", type="string", length=300, nullable=true)
      */
     private $slugName;
+        
+    /**
+     * @var \ArticleCategories
+     *
+     * @OneToMany(targetEntity="ArticleCategories", mappedBy="category")
+     */
+    private $articles;
 
+    public function __construct() {
+        $this->articles = new ArrayCollection();
+    }
+    
     /**
      * Get id
      *
@@ -82,6 +95,15 @@ class Categories {
      */
     public function getSlugName() {
         return $this->slugName;
+    }
+    
+    /**
+     * Get articles
+     *
+     * @return \Entity\ArticleCategories
+     */
+    public function getArticles() {
+        return $this->articles->toArray();
     }
 
 }

@@ -55,6 +55,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   |
  */
 $config['base_url'] = '';
+$config['per_page'] = 10;
 
 /*
   |--------------------------------------------------------------------------

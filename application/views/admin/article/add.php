@@ -7,6 +7,16 @@
         </div>
         <div class="clearfix"></div>
         <div class="form-group">
+            <label for="articleCategory">Danh mục</label>
+            <input type="text" class="form-control" id="articleCategory" name="categories">
+        </div>
+        <div class="clearfix"></div>
+        <div class="form-group">
+            <label for="articleTag">Thẻ tag</label>
+            <input type="text" class="form-control" id="articleTag" name="tags">
+        </div>
+        <div class="clearfix"></div>
+        <div class="form-group">
             <label for="articleSource">Nguồn</label>
             <input name="source" type="text" class="form-control " id="articleSource">
         </div>

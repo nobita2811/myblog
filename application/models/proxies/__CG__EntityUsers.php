@@ -99,16 +99,40 @@ class Users extends \Entity\Users implements \Doctrine\ORM\Proxy\Proxy
         return parent::getFullName();
     }
 
-    public function setWork($work)
+    public function setCompany($company)
     {
         $this->__load();
-        return parent::setWork($work);
+        return parent::setCompany($company);
     }
 
-    public function getWork()
+    public function getCompany()
     {
         $this->__load();
-        return parent::getWork();
+        return parent::getCompany();
+    }
+
+    public function setIpAddress($ipAddress)
+    {
+        $this->__load();
+        return parent::setIpAddress($ipAddress);
+    }
+
+    public function getIpAddress()
+    {
+        $this->__load();
+        return parent::getIpAddress();
+    }
+
+    public function setPhone($phone)
+    {
+        $this->__load();
+        return parent::setPhone($phone);
+    }
+
+    public function getPhone()
+    {
+        $this->__load();
+        return parent::getPhone();
     }
 
     public function setAge($age)
@@ -135,46 +159,22 @@ class Users extends \Entity\Users implements \Doctrine\ORM\Proxy\Proxy
         return parent::getGender();
     }
 
-    public function setCreated($created)
+    public function setCreatedOn($createdOn)
     {
         $this->__load();
-        return parent::setCreated($created);
+        return parent::setCreatedOn($createdOn);
     }
 
-    public function getCreated()
+    public function getCreatedOn()
     {
         $this->__load();
-        return parent::getCreated();
-    }
-
-    public function setModified($modified)
-    {
-        $this->__load();
-        return parent::setModified($modified);
-    }
-
-    public function getModified()
-    {
-        $this->__load();
-        return parent::getModified();
-    }
-
-    public function setRole(\Entity\Roles $role = NULL)
-    {
-        $this->__load();
-        return parent::setRole($role);
-    }
-
-    public function getRole()
-    {
-        $this->__load();
-        return parent::getRole();
+        return parent::getCreatedOn();
     }
 
 
     public function __sleep()
     {
-        return array('__isInitialized__', 'id', 'username', 'password', 'email', 'fullName', 'work', 'age', 'gender', 'created', 'modified', 'role');
+        return array('__isInitialized__', 'id', 'username', 'password', 'email', 'fullName', 'ipAddress', 'phone', 'company', 'age', 'gender', 'createdOn');
     }
 
     public function __clone()

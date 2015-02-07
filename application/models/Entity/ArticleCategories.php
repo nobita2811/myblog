@@ -32,7 +32,7 @@ class ArticleCategories {
     /**
      * @var \Categories
      *
-     * @ManyToOne(targetEntity="Categories")
+     * @ManyToOne(targetEntity="Categories", inversedBy="ArticleCategories")
      * @JoinColumns({
      *   @JoinColumn(name="category_id", referencedColumnName="id")
      * })

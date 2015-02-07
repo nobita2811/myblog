@@ -1717,7 +1717,7 @@ class Ion_auth_model extends CI_Model
 	 **/
 	public function set_session($user)
 	{
-
+            
 		$this->trigger_events('pre_set_session');
 
 		$session_data = array(
@@ -1725,15 +1725,26 @@ class Ion_auth_model extends CI_Model
 		    'username'             => $user->username,
 		    'email'                => $user->email,
 		    'user_id'              => $user->id, //everyone likes to overwrite id so we'll use user_id
-		    'old_last_login'       => $user->last_login
+		    'old_last_login'       => $user->last_login,
+                    'group'                => $this->get_user_group($user->id)
 		);
-
+                    
 		$this->session->set_userdata($session_data);
 
 		$this->trigger_events('post_set_session');
 
 		return TRUE;
 	}
+        
+        public function get_user_group($user_id) {            
+		$query = $this->db->select('groups.name')
+                                  ->join('users_groups', 'users_groups.user_id = users.id', 'left')
+                                  ->join('groups', 'users_groups.group_id = groups.id', 'left')
+                                  ->where('users.id', $user_id)
+                                  ->distinct()
+		                  ->get($this->tables['users']);
+                return is_array($query->result_array()) ? array_column($query->result_array(), 'name') : NULL;
+        }
 
 	/**
 	 * remember_user

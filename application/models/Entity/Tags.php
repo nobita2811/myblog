@@ -2,6 +2,8 @@
 
 namespace Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+
 /**
  * Tags
  *
@@ -32,7 +34,18 @@ class Tags {
      * @Column(name="slug_name", type="string", length=300, nullable=true)
      */
     private $slugName;
+    
+    /**
+     * @var \ArticleTags
+     *
+     * @OneToMany(targetEntity="ArticleTags", mappedBy="tag")
+     */
+    private $articles;
 
+    public function __construct() {
+        $this->articles = new ArrayCollection();
+    }
+    
     /**
      * Get id
      *
@@ -82,6 +95,15 @@ class Tags {
      */
     public function getSlugName() {
         return $this->slugName;
+    }
+
+    /**
+     * Get articles
+     *
+     * @return \Entity\ArticleTags
+     */
+    public function getArticles() {
+        return $this->articles->toArray();
     }
 
 }

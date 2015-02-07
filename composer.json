@@ -9,6 +9,7 @@
 		"mikey179/vfsStream": "1.1.*",
 		"cocur/slugify": "dev-master",
 		"camna/codeigniter-doctrine": "1.*@dev",
-		"tracy/tracy": "dev-master"
+		"tracy/tracy": "dev-master",
+		"gregwar/captcha": "dev-master"
 	}
 }

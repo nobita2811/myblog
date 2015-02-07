@@ -14,6 +14,11 @@ class Category_model extends Base_model {
         return $this->em->getRepository('Entity\Categories')->find($id);
     }
 
+    public function getAllBySlugName($slug_name) {
+        $condition = ['slugName' => $slug_name];
+        return $this->em->getRepository('Entity\Categories')->findBy($condition);
+    }
+    
     public function getBySlugName($slug_name) {
         $condition = ['slugName' => $slug_name];
         return $this->em->getRepository('Entity\Categories')->findOneBy($condition);

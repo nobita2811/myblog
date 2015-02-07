@@ -50,9 +50,23 @@ class Users {
     /**
      * @var string
      *
-     * @Column(name="work", type="string", length=300, nullable=true)
+     * @Column(name="ip_address", type="string", length=15, nullable=true)
      */
-    private $work;
+    private $ipAddress;
+
+    /**
+     * @var string
+     *
+     * @Column(name="phone", type="string", length=20, nullable=true)
+     */
+    private $phone;
+
+    /**
+     * @var string
+     *
+     * @Column(name="company", type="string", length=300, nullable=true)
+     */
+    private $company;
 
     /**
      * @var integer
@@ -69,28 +83,11 @@ class Users {
     private $gender;
 
     /**
-     * @var \DateTime
+     * @var integer
      *
-     * @Column(name="created", type="datetime", nullable=true)
+     * @Column(name="created_on", type="integer", nullable=true)
      */
-    private $created;
-
-    /**
-     * @var \DateTime
-     *
-     * @Column(name="modified", type="datetime", nullable=true)
-     */
-    private $modified;
-
-    /**
-     * @var \Roles
-     *
-     * @ManyToOne(targetEntity="Roles")
-     * @JoinColumns({
-     *   @JoinColumn(name="role_id", referencedColumnName="id")
-     * })
-     */
-    private $role;
+    private $createdOn;
 
     /**
      * Get id
@@ -186,24 +183,66 @@ class Users {
     }
 
     /**
-     * Set work
+     * Set company
      *
-     * @param string $work
+     * @param string $company
      * @return Users
      */
-    public function setWork($work) {
-        $this->work = $work;
+    public function setCompany($company) {
+        $this->company = $company;
 
         return $this;
     }
 
     /**
-     * Get work
+     * Get company
      *
      * @return string 
      */
-    public function getWork() {
-        return $this->work;
+    public function getCompany() {
+        return $this->company;
+    }
+
+    /**
+     * Set ipAddress
+     *
+     * @param string $ipAddress
+     * @return Users
+     */
+    public function setIpAddress($ipAddress) {
+        $this->ipAddress = $ipAddress;
+
+        return $this;
+    }
+
+    /**
+     * Get ipAddress
+     *
+     * @return string 
+     */
+    public function getIpAddress() {
+        return $this->ipAddress;
+    }
+
+    /**
+     * Set phone
+     *
+     * @param string $phone
+     * @return Users
+     */
+    public function setPhone($phone) {
+        $this->phone = $phone;
+
+        return $this;
+    }
+
+    /**
+     * Get phone
+     *
+     * @return string 
+     */
+    public function getPhone() {
+        return $this->phone;
     }
 
     /**
@@ -249,66 +288,24 @@ class Users {
     }
 
     /**
-     * Set created
+     * Set createdOn
      *
-     * @param \DateTime $created
-     * @return Users
+     * @param integer $createdOn
+     * @return integer
      */
-    public function setCreated($created) {
-        $this->created = $created;
+    public function setCreatedOn($createdOn) {
+        $this->createdOn = $createdOn;
 
         return $this;
     }
 
     /**
-     * Get created
+     * Get createdOn
      *
-     * @return \DateTime 
+     * @return integer
      */
-    public function getCreated() {
-        return $this->created;
+    public function getCreatedOn() {
+        return $this->createdOn;
     }
-
-    /**
-     * Set modified
-     *
-     * @param \DateTime $modified
-     * @return Users
-     */
-    public function setModified($modified) {
-        $this->modified = $modified;
-
-        return $this;
-    }
-
-    /**
-     * Get modified
-     *
-     * @return \DateTime 
-     */
-    public function getModified() {
-        return $this->modified;
-    }
-
-    /**
-     * Set role
-     *
-     * @param \Entity\Roles $role
-     * @return Users
-     */
-    public function setRole(\Entity\Roles $role = null) {
-        $this->role = $role;
-
-        return $this;
-    }
-
-    /**
-     * Get role
-     *
-     * @return \Entity\Roles 
-     */
-    public function getRole() {
-        return $this->role;
-    }
-
+    
 }

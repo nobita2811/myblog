@@ -32,7 +32,7 @@ class ArticleTags {
     /**
      * @var \Tags
      *
-     * @ManyToOne(targetEntity="Tags")
+     * @ManyToOne(targetEntity="Tags", inversedBy="ArticleTags")
      * @JoinColumns({
      *   @JoinColumn(name="tag_id", referencedColumnName="id")
      * })

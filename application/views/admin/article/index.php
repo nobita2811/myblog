@@ -13,21 +13,32 @@
                 <div class="panel-body">
                     <input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-table" placeholder="Filter Developers" />
                 </div>
-                <table class="table table-hover" id="dev-table">
+                <table class="table table-hover table-responsive" id="dev-table">
                     <thead>
                         <tr>
+                            <th>Ảnh</th>
                             <th>Tên bài viết</th>
-                            <th>Mô tả</th>
-                            <th>Tên ảnh</th>
+                            <th>Người đăng</th>
+                            <th>Ngày đăng</th>
+                            <th>Lượt xem</th>
+                            <th>Danh mục</th>
+                            <th>Thẻ tag</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php
                         foreach ($datas AS $item) {
+                            $img = $item->getFile() ? getUpload($item->getFile()->getFileName(), 0) : getUpload('', 0);
                             echo '
                                 <tr>
+                                    <td style="max-width: 140px;"><img src="'.$img.'" class="img-responsive img-thumbnail"></td>
                                     <td>'.$item->getTitle().'</td>
-                                    <td>'.$item->getSummary().'</td>
+                                    <td>'.$item->getUser()->getUsername().'</td>
+                                    <td>'.$item->getCreated()->format('d/m/Y').'</td>
+                                    <td>'.$item->getViews().'</td>
+                                    <td>'.getCat($item->getCategories()).'</td>
+                                    <td>'.getTag($item->getTags()).'</td>
                                     <td>
                                         <a class="button-link" href="'.  $deleteLink . '/' . $item->getSlugName().'">Delete</a> '
                                     . '<a class="button-link" href="'.  $deleteEdit . '/' . $item->getSlugName().'">Edit</a></td>

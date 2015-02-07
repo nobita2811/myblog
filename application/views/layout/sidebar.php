@@ -1,11 +1,11 @@
 <div class="col-md-4 column">
     <hr>
-    <ul>
+    <ul id="sideBarFix">
         <li>
-            Lorem ipsum dolor sit amet
+            <a href="<?php echo base_url('/category'); ?>">Xem toàn bộ danh mục</a>
         </li>
         <li>
-            Consectetur adipiscing elit
+            <a href="<?php echo base_url('/tag'); ?>">Xem toàn bộ thẻ tag</a>
         </li>
         <li>
             Integer molestie lorem at massa

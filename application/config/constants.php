@@ -123,7 +123,7 @@ define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 
 define('DS', DIRECTORY_SEPARATOR);
-define('RS', 'resources' . DS);
+define('RS', 'resources');
 define('RESOURCE_PATH', FCPATH . RS);
 
 // for template
@@ -131,6 +131,10 @@ define('TITLE', 'Tran Phu :: ' . date('d-m-Y'));
 define('DESCRIPTIONS', 'php,domain,hosting');
 define('KEY_WORDS', 'php,domain,hosting');
 define('AUTHOR', 'svtxphu@gmail.com');
+
+define('MAX_ARTICLE_PER_CATEGORY', 5);
+define('MAX_ARTICLE_PER_TAG', 5);
+define('MAX_RANDOM_ARTICLE', 5);
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

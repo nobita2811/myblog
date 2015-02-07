@@ -1,3 +1,3 @@
 <?php
-    echo $this->pagination->create_links();
+    echo isset($this->pagination) ? $this->pagination->create_links() : '';
 ?>

@@ -1,5 +1,5 @@
 <div class="container">
-    <h4>Thêm mới nhóm chuyên mục</h4>
+    <h4>Sửa tên nhóm chuyên mục</h4>
     <form action="<?php echo $action; ?>" method="POST">
         <div class="form-group col-xs-6">
             <label for="exampleCatName">Tên</label>
