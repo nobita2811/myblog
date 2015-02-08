@@ -124,7 +124,9 @@ define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 define('DS', DIRECTORY_SEPARATOR);
 define('RS', 'resources');
+define('VD', 'vendor');
 define('RESOURCE_PATH', FCPATH . RS);
+define('VENDOR_PATH', FCPATH . VD);
 
 // for template
 define('TITLE', 'Tran Phu :: ' . date('d-m-Y'));

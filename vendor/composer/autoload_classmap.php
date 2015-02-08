@@ -6,6 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'PHPMailer' => $vendorDir . '/phpmailer/phpmailer/class.phpmailer.php',
+    'POP3' => $vendorDir . '/phpmailer/phpmailer/class.pop3.php',
+    'SMTP' => $vendorDir . '/phpmailer/phpmailer/class.smtp.php',
     'Tracy\\Bar' => $vendorDir . '/tracy/tracy/src/Tracy/Bar.php',
     'Tracy\\BlueScreen' => $vendorDir . '/tracy/tracy/src/Tracy/BlueScreen.php',
     'Tracy\\Bridges\\Nette\\TracyExtension' => $vendorDir . '/tracy/tracy/src/Bridges/Nette/TracyExtension.php',
@@ -18,4 +21,5 @@ return array(
     'Tracy\\ILogger' => $vendorDir . '/tracy/tracy/src/Tracy/ILogger.php',
     'Tracy\\Logger' => $vendorDir . '/tracy/tracy/src/Tracy/Logger.php',
     'Tracy\\OutputDebugger' => $vendorDir . '/tracy/tracy/src/Tracy/OutputDebugger.php',
+    'phpmailerException' => $vendorDir . '/phpmailer/phpmailer/class.phpmailer.php',
 );

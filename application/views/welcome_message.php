@@ -7,13 +7,13 @@ foreach ($datas AS $article) :
     <div class="row clearfix">
         <div class="col-md-4 column">
             <a href="<?= base_url('article/view/' . $article->getSlugname()); ?>">
-                <img alt="140x140" src="<?php $article->getFile() ? getUpload($article->getFile()->getFileName()) : getUpload(); ?>" class="img-responsive img-circle"/>
+                <img alt="140x140" src="<?php $article->getFile() ? getUpload($article->getFile()->getFileName()) : getUpload(); ?>" class="img-responsive img-thumbnail"/>
             </a>
         </div>
         <div class="col-md-8 column">
             <?php echo $article->getSummary(); ?> <a href="<?= base_url('article/view/' . $article->getSlugname()); ?>">Xem chi tiết...</a>
             <br>
-            <i>
+            <div class="show-article-description">
             <span>Lượt xem: <?= $article->getViews(); ?></span>
             <span>Danh mục: 
             <?php
@@ -22,7 +22,7 @@ foreach ($datas AS $article) :
                 }
             ?>
             </span>
-            </i>
+            </div>
         </div>
     </div>
     <hr>

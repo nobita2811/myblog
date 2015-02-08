@@ -1,0 +1,13 @@
+.main-wrapper {
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+}
+
+.show-article-description {
+    margin-top: 10px;
+    border-bottom: 1px dashed #DADFE1;
+    border-top: 1px dashed #DADFE1;
+    font-style: italic;
+    padding: 3px;
+}

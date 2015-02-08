@@ -2081,3 +2081,2173 @@ DEBUG - 2015-02-07 12:09:08 --> File loaded: D:\phutx\project\ups\myblog\applica
 DEBUG - 2015-02-07 12:09:08 --> File loaded: D:\phutx\project\ups\myblog\application\views\admin/common/footer.php
 DEBUG - 2015-02-07 12:09:08 --> Final output sent to browser
 DEBUG - 2015-02-07 12:09:08 --> Total execution time: 0.4330
+DEBUG - 2015-02-07 06:43:26 --> Config Class Initialized
+DEBUG - 2015-02-07 06:43:26 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:43:26 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:43:26 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:43:26 --> URI Class Initialized
+DEBUG - 2015-02-07 06:43:26 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 06:43:26 --> Router Class Initialized
+DEBUG - 2015-02-07 06:43:26 --> Output Class Initialized
+DEBUG - 2015-02-07 06:43:26 --> Security Class Initialized
+DEBUG - 2015-02-07 06:43:27 --> Input Class Initialized
+DEBUG - 2015-02-07 06:43:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:43:27 --> Language Class Initialized
+ERROR - 2015-02-07 06:43:27 --> Severity: Warning --> require(C:\xampp\htdocs\myblog\vendor/tracy/tracy/src/shortcuts.php): failed to open stream: No such file or directory C:\xampp\htdocs\myblog\vendor\composer\autoload_real.php 54
+ERROR - 2015-02-07 06:43:27 --> Severity: Compile Error --> require(): Failed opening required 'C:\xampp\htdocs\myblog\vendor/tracy/tracy/src/shortcuts.php' (include_path='.;C:\xampp\php\PEAR') C:\xampp\htdocs\myblog\vendor\composer\autoload_real.php 54
+DEBUG - 2015-02-07 06:46:56 --> Config Class Initialized
+DEBUG - 2015-02-07 06:46:56 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:46:56 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:46:56 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:46:56 --> URI Class Initialized
+DEBUG - 2015-02-07 06:46:56 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 06:46:56 --> Router Class Initialized
+DEBUG - 2015-02-07 06:46:56 --> Output Class Initialized
+DEBUG - 2015-02-07 06:46:56 --> Security Class Initialized
+DEBUG - 2015-02-07 06:46:56 --> Input Class Initialized
+DEBUG - 2015-02-07 06:46:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:46:56 --> Language Class Initialized
+DEBUG - 2015-02-07 06:46:56 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:46:56 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:46:56 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:46:56 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:46:56 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:46:56 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:46:56 --> A session cookie was not found.
+DEBUG - 2015-02-07 06:46:56 --> Session: Creating new session (55310a78b5bfda938205d300548f4736)
+DEBUG - 2015-02-07 06:46:56 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:46:57 --> Model Class Initialized
+DEBUG - 2015-02-07 06:46:57 --> Model Class Initialized
+DEBUG - 2015-02-07 06:46:57 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:46:57 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:46:57 --> Email Class Initialized
+DEBUG - 2015-02-07 06:46:57 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:46:57 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:46:57 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:46:57 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:46:57 --> Model Class Initialized
+DEBUG - 2015-02-07 06:46:57 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:46:57 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:46:57 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:46:57 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:46:57 --> Model Class Initialized
+DEBUG - 2015-02-07 06:46:57 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 06:46:57 --> Pagination Class Initialized
+DEBUG - 2015-02-07 06:46:58 --> Model Class Initialized
+DEBUG - 2015-02-07 06:46:58 --> Model Class Initialized
+DEBUG - 2015-02-07 06:46:58 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 06:46:58 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 06:46:59 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 06:46:59 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 06:46:59 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 06:46:59 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 06:46:59 --> Final output sent to browser
+DEBUG - 2015-02-07 06:46:59 --> Total execution time: 2.6071
+DEBUG - 2015-02-07 06:47:39 --> Config Class Initialized
+DEBUG - 2015-02-07 06:47:39 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:47:39 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:47:39 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:47:39 --> URI Class Initialized
+DEBUG - 2015-02-07 06:47:39 --> Router Class Initialized
+DEBUG - 2015-02-07 06:47:39 --> Output Class Initialized
+DEBUG - 2015-02-07 06:47:39 --> Security Class Initialized
+DEBUG - 2015-02-07 06:47:39 --> Input Class Initialized
+DEBUG - 2015-02-07 06:47:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:47:39 --> Language Class Initialized
+DEBUG - 2015-02-07 06:47:39 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:47:40 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:47:40 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:47:40 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:47:40 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:47:40 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:47:40 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:47:42 --> Model Class Initialized
+DEBUG - 2015-02-07 06:47:42 --> Model Class Initialized
+DEBUG - 2015-02-07 06:47:42 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:47:42 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:47:42 --> Email Class Initialized
+DEBUG - 2015-02-07 06:47:42 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:47:42 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:47:42 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:47:42 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:47:42 --> Model Class Initialized
+DEBUG - 2015-02-07 06:47:42 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:47:43 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:47:43 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:47:43 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:47:43 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 06:47:43 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 06:47:43 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 06:47:43 --> Model Class Initialized
+DEBUG - 2015-02-07 06:47:46 --> Model Class Initialized
+DEBUG - 2015-02-07 06:47:47 --> Model Class Initialized
+DEBUG - 2015-02-07 06:47:47 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 06:47:47 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 06:47:47 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/login.php
+DEBUG - 2015-02-07 06:47:47 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 06:47:47 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 06:47:47 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 06:47:47 --> Final output sent to browser
+DEBUG - 2015-02-07 06:47:47 --> Total execution time: 8.1325
+DEBUG - 2015-02-07 06:48:26 --> Config Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:48:26 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> URI Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> Router Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> Output Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> Security Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> Input Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:48:26 --> Language Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:48:26 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:48:26 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:48:26 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:48:26 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:48:26 --> Model Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> Model Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:48:26 --> Email Class Initialized
+DEBUG - 2015-02-07 06:48:26 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:48:26 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:48:26 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:48:26 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:48:27 --> Model Class Initialized
+DEBUG - 2015-02-07 06:48:27 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:48:27 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:48:27 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:48:27 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:48:27 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 06:48:27 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 06:48:27 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 06:48:27 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-02-07 06:48:27 --> Config Class Initialized
+DEBUG - 2015-02-07 06:48:27 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:48:27 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:48:27 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:48:27 --> URI Class Initialized
+DEBUG - 2015-02-07 06:48:27 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 06:48:27 --> Router Class Initialized
+DEBUG - 2015-02-07 06:48:27 --> Output Class Initialized
+DEBUG - 2015-02-07 06:48:27 --> Security Class Initialized
+DEBUG - 2015-02-07 06:48:27 --> Input Class Initialized
+DEBUG - 2015-02-07 06:48:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:48:27 --> Language Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:48:28 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:48:28 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:48:28 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:48:28 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:48:28 --> Model Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> Model Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:48:28 --> Email Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:48:28 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:48:28 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:48:28 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:48:28 --> Model Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:48:28 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:48:28 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> Model Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 06:48:28 --> Pagination Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> Model Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> Model Class Initialized
+DEBUG - 2015-02-07 06:48:28 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 06:48:28 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 06:48:29 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 06:48:29 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 06:48:29 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 06:48:29 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 06:48:29 --> Final output sent to browser
+DEBUG - 2015-02-07 06:48:29 --> Total execution time: 1.2461
+DEBUG - 2015-02-07 06:49:01 --> Config Class Initialized
+DEBUG - 2015-02-07 06:49:01 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:49:01 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:49:01 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:49:01 --> URI Class Initialized
+DEBUG - 2015-02-07 06:49:01 --> Router Class Initialized
+DEBUG - 2015-02-07 06:49:01 --> Output Class Initialized
+DEBUG - 2015-02-07 06:49:01 --> Security Class Initialized
+DEBUG - 2015-02-07 06:49:01 --> Input Class Initialized
+DEBUG - 2015-02-07 06:49:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:49:01 --> Language Class Initialized
+DEBUG - 2015-02-07 06:49:01 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:49:01 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:49:01 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:49:01 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:49:01 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:49:01 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:49:01 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:49:01 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:49:02 --> Email Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:49:02 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:49:02 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:49:02 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:49:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:49:02 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:49:02 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 06:49:02 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 06:49:02 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 06:49:02 --> Session: Creating new session (4a1c70c154a28238a676e211d826fb49)
+DEBUG - 2015-02-07 06:49:02 --> Config Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:49:02 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> URI Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Router Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Output Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Security Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Input Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:49:02 --> Language Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:49:02 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:49:02 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:49:02 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:49:02 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:49:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:49:02 --> Email Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:49:02 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:49:02 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:49:02 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:49:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:49:02 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:49:02 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 06:49:02 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 06:49:02 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 06:49:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 06:49:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 06:49:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/login.php
+DEBUG - 2015-02-07 06:49:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 06:49:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 06:49:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 06:49:02 --> Final output sent to browser
+DEBUG - 2015-02-07 06:49:02 --> Total execution time: 0.6550
+DEBUG - 2015-02-07 06:49:09 --> Config Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:49:09 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> URI Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Router Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Output Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Security Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Input Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:49:09 --> Language Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:49:09 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:49:09 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:49:09 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:49:09 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:49:09 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:49:09 --> Email Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:49:09 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:49:09 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:49:09 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:49:09 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:49:09 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:49:09 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:49:09 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Config Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:49:14 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> URI Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 06:49:14 --> Router Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Output Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Security Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Input Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:49:14 --> Language Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:49:14 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:49:14 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:49:14 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:49:14 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:49:14 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:49:14 --> Email Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:49:14 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:49:14 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:49:14 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:49:14 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:14 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:49:15 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:49:15 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:49:15 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:49:15 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:15 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 06:49:15 --> Pagination Class Initialized
+DEBUG - 2015-02-07 06:49:15 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:15 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 06:49:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 06:49:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 06:49:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 06:49:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 06:49:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 06:49:15 --> Final output sent to browser
+DEBUG - 2015-02-07 06:49:15 --> Total execution time: 0.9211
+DEBUG - 2015-02-07 06:49:55 --> Config Class Initialized
+DEBUG - 2015-02-07 06:49:55 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:49:55 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:49:55 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:49:55 --> URI Class Initialized
+DEBUG - 2015-02-07 06:49:55 --> Router Class Initialized
+DEBUG - 2015-02-07 06:49:55 --> Output Class Initialized
+DEBUG - 2015-02-07 06:49:55 --> Security Class Initialized
+DEBUG - 2015-02-07 06:49:55 --> Input Class Initialized
+DEBUG - 2015-02-07 06:49:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:49:55 --> Language Class Initialized
+DEBUG - 2015-02-07 06:49:55 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:49:55 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:49:55 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:49:55 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:49:55 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:49:55 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:49:55 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:49:56 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:56 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:56 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:49:56 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:49:56 --> Email Class Initialized
+DEBUG - 2015-02-07 06:49:56 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:49:56 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:49:56 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:49:56 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:49:56 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:56 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:49:56 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:49:56 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:49:56 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:49:56 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 06:49:56 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 06:49:56 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 06:49:56 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:57 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:57 --> Model Class Initialized
+DEBUG - 2015-02-07 06:49:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 06:49:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 06:49:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/login.php
+DEBUG - 2015-02-07 06:49:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 06:49:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 06:49:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 06:49:57 --> Final output sent to browser
+DEBUG - 2015-02-07 06:49:57 --> Total execution time: 2.7012
+DEBUG - 2015-02-07 06:50:08 --> Config Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:50:08 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> URI Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Router Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Output Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Security Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Input Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:50:08 --> Language Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:50:08 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:50:08 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:50:08 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:50:08 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:50:08 --> Model Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Model Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:50:08 --> Email Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:50:08 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:50:08 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:50:08 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:50:08 --> Model Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:50:08 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:50:08 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:50:08 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 06:50:08 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 06:50:08 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 06:50:08 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-02-07 06:50:09 --> Config Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:50:09 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> URI Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 06:50:09 --> Router Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Output Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Security Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Input Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:50:09 --> Language Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:50:09 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:50:09 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:50:09 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:50:09 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:50:09 --> Model Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Model Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:50:09 --> Email Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:50:09 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:50:09 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:50:09 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:50:09 --> Model Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:50:09 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:50:09 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Model Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 06:50:09 --> Pagination Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Model Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> Model Class Initialized
+DEBUG - 2015-02-07 06:50:09 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 06:50:09 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 06:50:10 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 06:50:10 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 06:50:10 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 06:50:10 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 06:50:10 --> Final output sent to browser
+DEBUG - 2015-02-07 06:50:10 --> Total execution time: 1.0601
+DEBUG - 2015-02-07 06:58:40 --> Config Class Initialized
+DEBUG - 2015-02-07 06:58:40 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:58:40 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:58:40 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:58:40 --> URI Class Initialized
+DEBUG - 2015-02-07 06:58:40 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 06:58:40 --> Router Class Initialized
+DEBUG - 2015-02-07 06:58:40 --> Output Class Initialized
+DEBUG - 2015-02-07 06:58:40 --> Security Class Initialized
+DEBUG - 2015-02-07 06:58:40 --> Input Class Initialized
+DEBUG - 2015-02-07 06:58:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:58:40 --> Language Class Initialized
+DEBUG - 2015-02-07 06:58:40 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:58:40 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:58:40 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:58:40 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:58:40 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:58:40 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:58:40 --> Session: Regenerate ID
+DEBUG - 2015-02-07 06:58:40 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:58:41 --> Model Class Initialized
+DEBUG - 2015-02-07 06:58:41 --> Model Class Initialized
+DEBUG - 2015-02-07 06:58:41 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:58:41 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:58:41 --> Email Class Initialized
+DEBUG - 2015-02-07 06:58:41 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:58:41 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:58:41 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:58:41 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:58:41 --> Model Class Initialized
+DEBUG - 2015-02-07 06:58:41 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:58:41 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:58:41 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:58:41 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:58:41 --> Model Class Initialized
+DEBUG - 2015-02-07 06:58:41 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 06:58:41 --> Pagination Class Initialized
+DEBUG - 2015-02-07 06:58:42 --> Model Class Initialized
+DEBUG - 2015-02-07 06:58:42 --> Model Class Initialized
+DEBUG - 2015-02-07 06:58:42 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 06:58:42 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 06:58:42 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 06:58:42 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+ERROR - 2015-02-07 06:58:42 --> Severity: Error --> Call to undefined method Entity\Articles::getName() C:\xampp\htdocs\myblog\application\helpers\admin_helper.php 115
+DEBUG - 2015-02-07 06:59:01 --> Config Class Initialized
+DEBUG - 2015-02-07 06:59:01 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:59:01 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:59:01 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:59:01 --> URI Class Initialized
+DEBUG - 2015-02-07 06:59:01 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 06:59:01 --> Router Class Initialized
+DEBUG - 2015-02-07 06:59:01 --> Output Class Initialized
+DEBUG - 2015-02-07 06:59:01 --> Security Class Initialized
+DEBUG - 2015-02-07 06:59:01 --> Input Class Initialized
+DEBUG - 2015-02-07 06:59:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:59:01 --> Language Class Initialized
+DEBUG - 2015-02-07 06:59:01 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:59:01 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:59:01 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:59:01 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:59:01 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:59:01 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:59:02 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:59:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:59:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:59:02 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:59:02 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:59:02 --> Email Class Initialized
+DEBUG - 2015-02-07 06:59:02 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:59:02 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:59:02 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:59:02 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:59:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:59:02 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:59:02 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:59:02 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:59:02 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:59:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:59:02 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 06:59:02 --> Pagination Class Initialized
+DEBUG - 2015-02-07 06:59:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:59:02 --> Model Class Initialized
+DEBUG - 2015-02-07 06:59:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 06:59:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 06:59:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 06:59:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 06:59:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 06:59:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 06:59:02 --> Final output sent to browser
+DEBUG - 2015-02-07 06:59:02 --> Total execution time: 0.9191
+DEBUG - 2015-02-07 06:59:36 --> Config Class Initialized
+DEBUG - 2015-02-07 06:59:36 --> Hooks Class Initialized
+DEBUG - 2015-02-07 06:59:36 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 06:59:36 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 06:59:36 --> URI Class Initialized
+DEBUG - 2015-02-07 06:59:36 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 06:59:36 --> Router Class Initialized
+DEBUG - 2015-02-07 06:59:36 --> Output Class Initialized
+DEBUG - 2015-02-07 06:59:36 --> Security Class Initialized
+DEBUG - 2015-02-07 06:59:36 --> Input Class Initialized
+DEBUG - 2015-02-07 06:59:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 06:59:36 --> Language Class Initialized
+DEBUG - 2015-02-07 06:59:36 --> Loader Class Initialized
+DEBUG - 2015-02-07 06:59:36 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 06:59:36 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 06:59:36 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 06:59:36 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 06:59:36 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 06:59:36 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 06:59:37 --> Model Class Initialized
+DEBUG - 2015-02-07 06:59:37 --> Model Class Initialized
+DEBUG - 2015-02-07 06:59:37 --> Controller Class Initialized
+DEBUG - 2015-02-07 06:59:37 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 06:59:37 --> Email Class Initialized
+DEBUG - 2015-02-07 06:59:37 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 06:59:37 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 06:59:37 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 06:59:37 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 06:59:37 --> Model Class Initialized
+DEBUG - 2015-02-07 06:59:37 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 06:59:37 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 06:59:37 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 06:59:37 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 06:59:37 --> Model Class Initialized
+DEBUG - 2015-02-07 06:59:37 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 06:59:37 --> Pagination Class Initialized
+DEBUG - 2015-02-07 06:59:37 --> Model Class Initialized
+DEBUG - 2015-02-07 06:59:37 --> Model Class Initialized
+DEBUG - 2015-02-07 06:59:37 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 06:59:37 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 06:59:37 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 06:59:37 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 06:59:37 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 06:59:37 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 06:59:37 --> Final output sent to browser
+DEBUG - 2015-02-07 06:59:37 --> Total execution time: 1.0121
+DEBUG - 2015-02-07 07:02:15 --> Config Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Hooks Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 07:02:15 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> URI Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 07:02:15 --> Router Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Output Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Security Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Input Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 07:02:15 --> Language Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Loader Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 07:02:15 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 07:02:15 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 07:02:15 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 07:02:15 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 07:02:15 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Controller Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 07:02:15 --> Email Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 07:02:15 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 07:02:15 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 07:02:15 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 07:02:15 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 07:02:15 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 07:02:15 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 07:02:15 --> Pagination Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 07:02:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 07:02:16 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 07:02:16 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+ERROR - 2015-02-07 07:02:16 --> Severity: Error --> Call to undefined method Doctrine\ORM\QueryBuilder::setMaxResult() C:\xampp\htdocs\myblog\application\models\Article_model.php 244
+DEBUG - 2015-02-07 07:02:23 --> Config Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Hooks Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 07:02:23 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> URI Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 07:02:23 --> Router Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Output Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Security Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Input Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 07:02:23 --> Language Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Loader Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 07:02:23 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 07:02:23 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 07:02:23 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 07:02:23 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 07:02:23 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Controller Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 07:02:23 --> Email Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 07:02:23 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 07:02:23 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 07:02:23 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 07:02:23 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 07:02:23 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 07:02:23 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 07:02:23 --> Pagination Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:23 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 07:02:23 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 07:02:23 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 07:02:23 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+ERROR - 2015-02-07 07:02:23 --> Severity: Notice --> Undefined property: Doctrine\ORM\QueryBuilder::$getQuery C:\xampp\htdocs\myblog\application\models\Article_model.php 245
+ERROR - 2015-02-07 07:02:23 --> Severity: Error --> Call to a member function getResult() on null C:\xampp\htdocs\myblog\application\models\Article_model.php 245
+DEBUG - 2015-02-07 07:02:46 --> Config Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Hooks Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 07:02:46 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> URI Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 07:02:46 --> Router Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Output Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Security Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Input Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 07:02:46 --> Language Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Loader Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 07:02:46 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 07:02:46 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 07:02:46 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 07:02:46 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 07:02:46 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Controller Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 07:02:46 --> Email Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 07:02:46 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 07:02:46 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 07:02:46 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 07:02:46 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 07:02:46 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 07:02:46 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 07:02:46 --> Pagination Class Initialized
+DEBUG - 2015-02-07 07:02:46 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:47 --> Model Class Initialized
+DEBUG - 2015-02-07 07:02:47 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 07:02:47 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 07:02:47 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 07:02:47 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 07:02:47 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 07:02:47 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 07:02:47 --> Final output sent to browser
+DEBUG - 2015-02-07 07:02:47 --> Total execution time: 0.8470
+DEBUG - 2015-02-07 07:04:16 --> Config Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Hooks Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 07:04:16 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> URI Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 07:04:16 --> Router Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Output Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Security Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Input Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 07:04:16 --> Language Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Loader Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 07:04:16 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 07:04:16 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 07:04:16 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 07:04:16 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Session: Regenerate ID
+DEBUG - 2015-02-07 07:04:16 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 07:04:16 --> Model Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Model Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Controller Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 07:04:16 --> Email Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 07:04:16 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 07:04:16 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 07:04:16 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 07:04:16 --> Model Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 07:04:16 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 07:04:16 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Model Class Initialized
+DEBUG - 2015-02-07 07:04:16 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 07:04:16 --> Pagination Class Initialized
+DEBUG - 2015-02-07 07:04:17 --> Model Class Initialized
+DEBUG - 2015-02-07 07:04:17 --> Model Class Initialized
+DEBUG - 2015-02-07 07:04:17 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 07:04:17 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 07:04:17 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 07:04:17 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 07:04:17 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 07:04:17 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 07:04:17 --> Final output sent to browser
+DEBUG - 2015-02-07 07:04:17 --> Total execution time: 0.9891
+DEBUG - 2015-02-07 07:04:37 --> Config Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Hooks Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 07:04:37 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> URI Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 07:04:37 --> Router Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Output Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Security Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Input Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 07:04:37 --> Language Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Loader Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 07:04:37 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 07:04:37 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 07:04:37 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 07:04:37 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 07:04:37 --> Model Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Model Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Controller Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 07:04:37 --> Email Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 07:04:37 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 07:04:37 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 07:04:37 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 07:04:37 --> Model Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 07:04:37 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 07:04:37 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Model Class Initialized
+DEBUG - 2015-02-07 07:04:37 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 07:04:37 --> Pagination Class Initialized
+DEBUG - 2015-02-07 07:04:38 --> Model Class Initialized
+DEBUG - 2015-02-07 07:04:38 --> Model Class Initialized
+DEBUG - 2015-02-07 07:04:38 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 07:04:38 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 07:04:38 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 07:04:38 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 07:04:38 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 07:04:38 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 07:04:38 --> Final output sent to browser
+DEBUG - 2015-02-07 07:04:38 --> Total execution time: 1.0011
+DEBUG - 2015-02-07 07:09:33 --> Config Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Hooks Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 07:09:33 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> URI Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 07:09:33 --> Router Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Output Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Security Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Input Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 07:09:33 --> Language Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Loader Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 07:09:33 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 07:09:33 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 07:09:33 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 07:09:33 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Session: Regenerate ID
+DEBUG - 2015-02-07 07:09:33 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 07:09:33 --> Model Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Model Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Controller Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 07:09:33 --> Email Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 07:09:33 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 07:09:33 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 07:09:33 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 07:09:33 --> Model Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 07:09:33 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 07:09:33 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Model Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 07:09:33 --> Pagination Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Model Class Initialized
+DEBUG - 2015-02-07 07:09:33 --> Model Class Initialized
+DEBUG - 2015-02-07 07:09:34 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 07:09:34 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 07:09:34 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 07:09:34 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 07:09:34 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 07:09:34 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 07:09:34 --> Final output sent to browser
+DEBUG - 2015-02-07 07:09:34 --> Total execution time: 1.3151
+DEBUG - 2015-02-07 07:11:19 --> Config Class Initialized
+DEBUG - 2015-02-07 07:11:19 --> Hooks Class Initialized
+DEBUG - 2015-02-07 07:11:19 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 07:11:19 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 07:11:19 --> URI Class Initialized
+DEBUG - 2015-02-07 07:11:19 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 07:11:19 --> Router Class Initialized
+DEBUG - 2015-02-07 07:11:19 --> Output Class Initialized
+DEBUG - 2015-02-07 07:11:19 --> Security Class Initialized
+DEBUG - 2015-02-07 07:11:19 --> Input Class Initialized
+DEBUG - 2015-02-07 07:11:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 07:11:19 --> Language Class Initialized
+DEBUG - 2015-02-07 07:11:19 --> Loader Class Initialized
+DEBUG - 2015-02-07 07:11:19 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 07:11:19 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 07:11:19 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 07:11:19 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 07:11:19 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 07:11:19 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 07:11:20 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:20 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:20 --> Controller Class Initialized
+DEBUG - 2015-02-07 07:11:20 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 07:11:20 --> Email Class Initialized
+DEBUG - 2015-02-07 07:11:20 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 07:11:20 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 07:11:20 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 07:11:20 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 07:11:20 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:20 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 07:11:20 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 07:11:20 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 07:11:20 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 07:11:20 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:20 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 07:11:20 --> Pagination Class Initialized
+DEBUG - 2015-02-07 07:11:20 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:20 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:20 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 07:11:20 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 07:11:20 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 07:11:20 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 07:11:20 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 07:11:20 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 07:11:20 --> Final output sent to browser
+DEBUG - 2015-02-07 07:11:20 --> Total execution time: 0.9771
+DEBUG - 2015-02-07 07:11:33 --> Config Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Hooks Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 07:11:33 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> URI Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 07:11:33 --> Router Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Output Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Security Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Input Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 07:11:33 --> Language Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Loader Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 07:11:33 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 07:11:33 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 07:11:33 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 07:11:33 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 07:11:33 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Controller Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 07:11:33 --> Email Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 07:11:33 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 07:11:33 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 07:11:33 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 07:11:33 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 07:11:33 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 07:11:34 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 07:11:34 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 07:11:34 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:34 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 07:11:34 --> Pagination Class Initialized
+DEBUG - 2015-02-07 07:11:34 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:34 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:34 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 07:11:34 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 07:11:34 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 07:11:34 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 07:11:34 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 07:11:34 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 07:11:34 --> Final output sent to browser
+DEBUG - 2015-02-07 07:11:34 --> Total execution time: 0.8610
+DEBUG - 2015-02-07 07:11:54 --> Config Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Hooks Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 07:11:54 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> URI Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 07:11:54 --> Router Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Output Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Security Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Input Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 07:11:54 --> Language Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Loader Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 07:11:54 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 07:11:54 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 07:11:54 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 07:11:54 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 07:11:54 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Controller Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 07:11:54 --> Email Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 07:11:54 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 07:11:54 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 07:11:54 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 07:11:54 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 07:11:54 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 07:11:54 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:54 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 07:11:54 --> Pagination Class Initialized
+DEBUG - 2015-02-07 07:11:55 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:55 --> Model Class Initialized
+DEBUG - 2015-02-07 07:11:55 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 07:11:55 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 07:11:55 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 07:11:55 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 07:11:55 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 07:11:55 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 07:11:55 --> Final output sent to browser
+DEBUG - 2015-02-07 07:11:55 --> Total execution time: 0.8650
+DEBUG - 2015-02-07 08:05:27 --> Config Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:05:27 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> URI Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 08:05:27 --> Router Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Output Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Security Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Input Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:05:27 --> Language Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:05:27 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:05:27 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:05:27 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:05:27 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Session: Regenerate ID
+DEBUG - 2015-02-07 08:05:27 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:05:27 --> Model Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Model Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:05:27 --> Email Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:05:27 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:05:27 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:05:27 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:05:27 --> Model Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:05:27 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:05:27 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Model Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 08:05:27 --> Pagination Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Model Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> Model Class Initialized
+DEBUG - 2015-02-07 08:05:27 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:05:27 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:05:27 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 08:05:27 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:05:27 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:05:27 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:05:27 --> Final output sent to browser
+DEBUG - 2015-02-07 08:05:27 --> Total execution time: 0.6040
+DEBUG - 2015-02-07 08:06:34 --> Config Class Initialized
+DEBUG - 2015-02-07 08:06:34 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:06:34 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:06:34 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:06:34 --> URI Class Initialized
+DEBUG - 2015-02-07 08:06:34 --> Router Class Initialized
+DEBUG - 2015-02-07 08:06:34 --> Output Class Initialized
+DEBUG - 2015-02-07 08:06:34 --> Security Class Initialized
+DEBUG - 2015-02-07 08:06:34 --> Input Class Initialized
+DEBUG - 2015-02-07 08:06:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:06:34 --> Language Class Initialized
+DEBUG - 2015-02-07 08:06:34 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:06:34 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:06:34 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:06:34 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:06:34 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:06:34 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:06:34 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:06:35 --> Model Class Initialized
+DEBUG - 2015-02-07 08:06:35 --> Model Class Initialized
+DEBUG - 2015-02-07 08:06:35 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:06:35 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:06:35 --> Email Class Initialized
+DEBUG - 2015-02-07 08:06:35 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:06:35 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:06:35 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:06:35 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:06:35 --> Model Class Initialized
+DEBUG - 2015-02-07 08:06:35 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:06:35 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:06:35 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:06:35 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:06:35 --> Model Class Initialized
+DEBUG - 2015-02-07 08:06:35 --> File loaded: C:\xampp\htdocs\myblog\application\views\admin/common/nav.php
+DEBUG - 2015-02-07 08:06:35 --> File loaded: C:\xampp\htdocs\myblog\application\views\admin/common/header.php
+DEBUG - 2015-02-07 08:06:35 --> File loaded: C:\xampp\htdocs\myblog\application\views\admin/category/index.php
+DEBUG - 2015-02-07 08:06:35 --> File loaded: C:\xampp\htdocs\myblog\application\views\admin/common/footer.php
+DEBUG - 2015-02-07 08:06:35 --> Final output sent to browser
+DEBUG - 2015-02-07 08:06:35 --> Total execution time: 0.6610
+DEBUG - 2015-02-07 08:06:54 --> Config Class Initialized
+DEBUG - 2015-02-07 08:06:54 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:06:54 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:06:54 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:06:54 --> URI Class Initialized
+DEBUG - 2015-02-07 08:06:54 --> Router Class Initialized
+DEBUG - 2015-02-07 08:06:54 --> Output Class Initialized
+DEBUG - 2015-02-07 08:06:54 --> Security Class Initialized
+DEBUG - 2015-02-07 08:06:54 --> Input Class Initialized
+DEBUG - 2015-02-07 08:06:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:06:54 --> Language Class Initialized
+DEBUG - 2015-02-07 08:06:55 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:06:55 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:06:55 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:06:55 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:06:55 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:06:55 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:06:55 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:06:55 --> Model Class Initialized
+DEBUG - 2015-02-07 08:06:55 --> Model Class Initialized
+DEBUG - 2015-02-07 08:06:55 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:06:55 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:06:55 --> Email Class Initialized
+DEBUG - 2015-02-07 08:06:55 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:06:55 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:06:55 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:06:55 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:06:55 --> Model Class Initialized
+DEBUG - 2015-02-07 08:06:55 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:06:55 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:06:55 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:06:55 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:06:55 --> Model Class Initialized
+DEBUG - 2015-02-07 08:06:55 --> File loaded: C:\xampp\htdocs\myblog\application\views\admin/common/nav.php
+DEBUG - 2015-02-07 08:06:55 --> File loaded: C:\xampp\htdocs\myblog\application\views\admin/common/header.php
+DEBUG - 2015-02-07 08:06:58 --> File loaded: C:\xampp\htdocs\myblog\application\views\admin/user/index.php
+DEBUG - 2015-02-07 08:06:58 --> File loaded: C:\xampp\htdocs\myblog\application\views\admin/common/footer.php
+DEBUG - 2015-02-07 08:06:58 --> Final output sent to browser
+DEBUG - 2015-02-07 08:06:58 --> Total execution time: 3.7282
+DEBUG - 2015-02-07 08:22:00 --> Config Class Initialized
+DEBUG - 2015-02-07 08:22:01 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:22:01 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:22:01 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:22:01 --> URI Class Initialized
+DEBUG - 2015-02-07 08:22:01 --> Router Class Initialized
+DEBUG - 2015-02-07 08:22:01 --> Output Class Initialized
+DEBUG - 2015-02-07 08:22:01 --> Security Class Initialized
+DEBUG - 2015-02-07 08:22:01 --> Input Class Initialized
+DEBUG - 2015-02-07 08:22:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:22:01 --> Language Class Initialized
+DEBUG - 2015-02-07 08:22:01 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:22:01 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:22:01 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:22:01 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:22:01 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:22:02 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:22:02 --> Session: Regenerate ID
+DEBUG - 2015-02-07 08:22:02 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:22:03 --> Model Class Initialized
+DEBUG - 2015-02-07 08:22:03 --> Model Class Initialized
+DEBUG - 2015-02-07 08:22:03 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:22:03 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:22:03 --> Email Class Initialized
+DEBUG - 2015-02-07 08:22:03 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:22:03 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:22:03 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:22:03 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:22:03 --> Model Class Initialized
+DEBUG - 2015-02-07 08:22:04 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:22:04 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:22:04 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:22:04 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:22:05 --> Model Class Initialized
+DEBUG - 2015-02-07 08:22:05 --> File loaded: C:\xampp\htdocs\myblog\application\views\admin/common/nav.php
+DEBUG - 2015-02-07 08:22:05 --> File loaded: C:\xampp\htdocs\myblog\application\views\admin/common/header.php
+DEBUG - 2015-02-07 08:22:09 --> File loaded: C:\xampp\htdocs\myblog\application\views\admin/user/index.php
+DEBUG - 2015-02-07 08:22:09 --> File loaded: C:\xampp\htdocs\myblog\application\views\admin/common/footer.php
+DEBUG - 2015-02-07 08:22:09 --> Final output sent to browser
+DEBUG - 2015-02-07 08:22:09 --> Total execution time: 8.9705
+DEBUG - 2015-02-07 08:36:13 --> Config Class Initialized
+DEBUG - 2015-02-07 08:36:13 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:36:14 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> URI Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 08:36:14 --> Router Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Output Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Security Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Input Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:36:14 --> Language Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:36:14 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:36:14 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:36:14 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:36:14 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Session: Regenerate ID
+DEBUG - 2015-02-07 08:36:14 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:36:14 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:36:14 --> Email Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:36:14 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:36:14 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:36:14 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:36:14 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:36:14 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:36:15 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:36:15 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:36:15 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:15 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 08:36:15 --> Pagination Class Initialized
+DEBUG - 2015-02-07 08:36:17 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:17 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:18 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:36:18 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:36:18 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 08:36:18 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:36:18 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:36:18 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:36:18 --> Final output sent to browser
+DEBUG - 2015-02-07 08:36:18 --> Total execution time: 5.0793
+DEBUG - 2015-02-07 08:36:30 --> Config Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:36:30 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> URI Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Router Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Output Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Security Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Input Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:36:30 --> Language Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:36:30 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:36:30 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:36:30 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:36:30 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:36:30 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:36:30 --> Email Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:36:30 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:36:30 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:36:30 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:36:30 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:36:30 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:36:30 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:36:30 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:36:30 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 08:36:30 --> Session: Creating new session (9c8536671bde02a125a9987a334e4af2)
+DEBUG - 2015-02-07 08:36:30 --> Config Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:36:30 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> URI Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Router Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Output Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Security Class Initialized
+DEBUG - 2015-02-07 08:36:30 --> Input Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:36:31 --> Language Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:36:31 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:36:31 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:36:31 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:36:31 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:36:31 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:36:31 --> Email Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:36:31 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:36:31 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:36:31 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:36:31 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:36:31 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:36:31 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:36:31 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:36:31 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 08:36:31 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:31 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:36:31 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:36:31 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/login.php
+DEBUG - 2015-02-07 08:36:31 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:36:31 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:36:31 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:36:31 --> Final output sent to browser
+DEBUG - 2015-02-07 08:36:31 --> Total execution time: 0.8080
+DEBUG - 2015-02-07 08:36:36 --> Config Class Initialized
+DEBUG - 2015-02-07 08:36:36 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:36:36 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:36:36 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:36:36 --> URI Class Initialized
+DEBUG - 2015-02-07 08:36:36 --> Router Class Initialized
+DEBUG - 2015-02-07 08:36:36 --> Output Class Initialized
+DEBUG - 2015-02-07 08:36:36 --> Security Class Initialized
+DEBUG - 2015-02-07 08:36:36 --> Input Class Initialized
+DEBUG - 2015-02-07 08:36:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:36:36 --> Language Class Initialized
+DEBUG - 2015-02-07 08:36:36 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:36:36 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:36:36 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:36:36 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:36:36 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:36:36 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:36:36 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:36:37 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:37 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:37 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:36:37 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:36:37 --> Email Class Initialized
+DEBUG - 2015-02-07 08:36:37 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:36:37 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:36:37 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:36:37 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:36:37 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:37 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:36:37 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:36:37 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:36:37 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:36:37 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:36:37 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:36:37 --> Language file loaded: language/english/auth_lang.php
+ERROR - 2015-02-07 08:36:37 --> Could not find the language line "create_user_validation_phone_label"
+DEBUG - 2015-02-07 08:36:38 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:38 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:38 --> Model Class Initialized
+DEBUG - 2015-02-07 08:36:38 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:36:38 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:36:39 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/create_user.php
+DEBUG - 2015-02-07 08:36:39 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:36:39 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:36:39 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:36:39 --> Final output sent to browser
+DEBUG - 2015-02-07 08:36:39 --> Total execution time: 2.4111
+DEBUG - 2015-02-07 08:51:41 --> Config Class Initialized
+DEBUG - 2015-02-07 08:51:41 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:51:41 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:51:41 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:51:41 --> URI Class Initialized
+DEBUG - 2015-02-07 08:51:41 --> Router Class Initialized
+DEBUG - 2015-02-07 08:51:41 --> Output Class Initialized
+DEBUG - 2015-02-07 08:51:41 --> Security Class Initialized
+DEBUG - 2015-02-07 08:51:41 --> Input Class Initialized
+DEBUG - 2015-02-07 08:51:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:51:41 --> Language Class Initialized
+DEBUG - 2015-02-07 08:51:41 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:51:41 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:51:41 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:51:41 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:51:41 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:51:41 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:51:41 --> Session: Regenerate ID
+DEBUG - 2015-02-07 08:51:41 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:51:42 --> Model Class Initialized
+DEBUG - 2015-02-07 08:51:42 --> Model Class Initialized
+DEBUG - 2015-02-07 08:51:42 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:51:42 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:51:42 --> Email Class Initialized
+DEBUG - 2015-02-07 08:51:42 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:51:42 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:51:42 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:51:42 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:51:42 --> Model Class Initialized
+DEBUG - 2015-02-07 08:51:42 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:51:42 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:51:42 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:51:42 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:51:42 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:51:42 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:51:42 --> Language file loaded: language/english/auth_lang.php
+ERROR - 2015-02-07 08:51:42 --> Could not find the language line "create_user_validation_phone_label"
+DEBUG - 2015-02-07 08:51:43 --> Model Class Initialized
+DEBUG - 2015-02-07 08:51:45 --> Model Class Initialized
+DEBUG - 2015-02-07 08:51:45 --> Model Class Initialized
+DEBUG - 2015-02-07 08:51:45 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:51:45 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:51:45 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/create_user.php
+DEBUG - 2015-02-07 08:51:45 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:51:45 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:51:45 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:51:45 --> Final output sent to browser
+DEBUG - 2015-02-07 08:51:45 --> Total execution time: 4.4763
+DEBUG - 2015-02-07 08:56:34 --> Config Class Initialized
+DEBUG - 2015-02-07 08:56:34 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:56:34 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:56:34 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:56:34 --> URI Class Initialized
+DEBUG - 2015-02-07 08:56:34 --> Router Class Initialized
+DEBUG - 2015-02-07 08:56:34 --> Output Class Initialized
+DEBUG - 2015-02-07 08:56:34 --> Security Class Initialized
+DEBUG - 2015-02-07 08:56:34 --> Input Class Initialized
+DEBUG - 2015-02-07 08:56:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:56:34 --> Language Class Initialized
+DEBUG - 2015-02-07 08:56:34 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:56:34 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:56:34 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:56:34 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:56:34 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:56:34 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:56:34 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:56:35 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:35 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:35 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:56:35 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:56:35 --> Email Class Initialized
+DEBUG - 2015-02-07 08:56:35 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:56:35 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:56:35 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:56:35 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:56:35 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:35 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:56:35 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:56:35 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:56:35 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:56:35 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:56:35 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:56:35 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 08:56:35 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:35 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:35 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:35 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:56:35 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:56:35 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/login.php
+DEBUG - 2015-02-07 08:56:35 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:56:36 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:56:36 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:56:36 --> Final output sent to browser
+DEBUG - 2015-02-07 08:56:36 --> Total execution time: 1.2641
+DEBUG - 2015-02-07 08:56:54 --> Config Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:56:54 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> URI Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Router Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Output Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Security Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Input Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:56:54 --> Language Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:56:54 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:56:54 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:56:54 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:56:54 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Session: Regenerate ID
+DEBUG - 2015-02-07 08:56:54 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:56:54 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:56:54 --> Email Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:56:54 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:56:54 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:56:54 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:56:54 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:56:54 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:56:54 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:56:54 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:56:54 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:56:54 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 08:56:54 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-02-07 08:56:55 --> Config Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:56:55 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> URI Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 08:56:55 --> Router Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> Output Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> Security Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> Input Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:56:55 --> Language Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:56:55 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:56:55 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:56:55 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:56:55 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:56:55 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:55 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:56:56 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:56:56 --> Email Class Initialized
+DEBUG - 2015-02-07 08:56:56 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:56:56 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:56:56 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:56:56 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:56:56 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:56 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:56:56 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:56:56 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:56:56 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:56:56 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:56 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 08:56:56 --> Pagination Class Initialized
+DEBUG - 2015-02-07 08:56:56 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:56 --> Model Class Initialized
+DEBUG - 2015-02-07 08:56:56 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:56:56 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:56:56 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 08:56:56 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:56:56 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:56:56 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:56:56 --> Final output sent to browser
+DEBUG - 2015-02-07 08:56:56 --> Total execution time: 1.0601
+DEBUG - 2015-02-07 08:57:01 --> Config Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:57:01 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> URI Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Router Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Output Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Security Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Input Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:57:01 --> Language Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:57:01 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:57:01 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:57:01 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:57:01 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:57:01 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:57:01 --> Email Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:57:01 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:57:01 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:57:01 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:57:01 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:57:01 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:57:01 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:57:01 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:57:01 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:57:01 --> Language file loaded: language/english/auth_lang.php
+ERROR - 2015-02-07 08:57:01 --> Could not find the language line "edit_user_validation_phone_label"
+DEBUG - 2015-02-07 08:57:01 --> Helper loaded: string_helper
+DEBUG - 2015-02-07 08:57:01 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:02 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:02 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:57:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:57:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/edit_user.php
+DEBUG - 2015-02-07 08:57:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:57:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:57:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:57:02 --> Final output sent to browser
+DEBUG - 2015-02-07 08:57:02 --> Total execution time: 1.0381
+DEBUG - 2015-02-07 08:57:13 --> Config Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:57:13 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> URI Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Router Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Output Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Security Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Input Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:57:13 --> Language Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:57:13 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:57:13 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:57:13 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:57:13 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:57:13 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:57:13 --> Email Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:57:13 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:57:13 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:57:13 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:57:13 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:57:13 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:57:13 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:57:13 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:57:13 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:57:13 --> Language file loaded: language/english/auth_lang.php
+ERROR - 2015-02-07 08:57:13 --> Could not find the language line "edit_user_validation_phone_label"
+DEBUG - 2015-02-07 08:57:13 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-02-07 08:57:14 --> Config Class Initialized
+DEBUG - 2015-02-07 08:57:14 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:57:14 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:57:14 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:57:14 --> URI Class Initialized
+DEBUG - 2015-02-07 08:57:14 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 08:57:14 --> Router Class Initialized
+DEBUG - 2015-02-07 08:57:14 --> Output Class Initialized
+DEBUG - 2015-02-07 08:57:14 --> Security Class Initialized
+DEBUG - 2015-02-07 08:57:14 --> Input Class Initialized
+DEBUG - 2015-02-07 08:57:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:57:14 --> Language Class Initialized
+DEBUG - 2015-02-07 08:57:14 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:57:14 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:57:14 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:57:14 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:57:14 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:57:14 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:57:14 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:57:15 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:15 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:15 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:57:15 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:57:15 --> Email Class Initialized
+DEBUG - 2015-02-07 08:57:15 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:57:15 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:57:15 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:57:15 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:57:15 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:15 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:57:15 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:57:15 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:57:15 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:57:15 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:15 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 08:57:15 --> Pagination Class Initialized
+DEBUG - 2015-02-07 08:57:15 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:15 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:57:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:57:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 08:57:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:57:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:57:15 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:57:15 --> Final output sent to browser
+DEBUG - 2015-02-07 08:57:15 --> Total execution time: 0.8070
+DEBUG - 2015-02-07 08:57:30 --> Config Class Initialized
+DEBUG - 2015-02-07 08:57:30 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:57:30 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:57:30 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:57:30 --> URI Class Initialized
+DEBUG - 2015-02-07 08:57:30 --> Router Class Initialized
+DEBUG - 2015-02-07 08:57:30 --> Output Class Initialized
+DEBUG - 2015-02-07 08:57:30 --> Security Class Initialized
+DEBUG - 2015-02-07 08:57:30 --> Input Class Initialized
+DEBUG - 2015-02-07 08:57:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:57:30 --> Language Class Initialized
+DEBUG - 2015-02-07 08:57:30 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:57:30 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:57:30 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:57:30 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:57:30 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:57:30 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:57:30 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:57:31 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:31 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:31 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:57:31 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:57:31 --> Email Class Initialized
+DEBUG - 2015-02-07 08:57:31 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:57:31 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:57:31 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:57:31 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:57:31 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:31 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:57:31 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:57:31 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:57:31 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:57:31 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:57:31 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:57:31 --> Language file loaded: language/english/auth_lang.php
+ERROR - 2015-02-07 08:57:31 --> Could not find the language line "edit_user_validation_phone_label"
+DEBUG - 2015-02-07 08:57:31 --> Helper loaded: string_helper
+DEBUG - 2015-02-07 08:57:31 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:31 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:31 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:31 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:57:31 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:57:31 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/edit_user.php
+DEBUG - 2015-02-07 08:57:31 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:57:31 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:57:31 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:57:31 --> Final output sent to browser
+DEBUG - 2015-02-07 08:57:31 --> Total execution time: 0.9961
+DEBUG - 2015-02-07 08:57:39 --> Config Class Initialized
+DEBUG - 2015-02-07 08:57:39 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:57:39 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:57:39 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:57:39 --> URI Class Initialized
+DEBUG - 2015-02-07 08:57:39 --> Router Class Initialized
+DEBUG - 2015-02-07 08:57:39 --> Output Class Initialized
+DEBUG - 2015-02-07 08:57:39 --> Security Class Initialized
+DEBUG - 2015-02-07 08:57:39 --> Input Class Initialized
+DEBUG - 2015-02-07 08:57:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:57:39 --> Language Class Initialized
+DEBUG - 2015-02-07 08:57:39 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:57:39 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:57:39 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:57:39 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:57:39 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:57:39 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:57:39 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:57:39 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:39 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:57:40 --> Email Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:57:40 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:57:40 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:57:40 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:57:40 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:57:40 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:57:40 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:57:40 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:57:40 --> Language file loaded: language/english/auth_lang.php
+ERROR - 2015-02-07 08:57:40 --> Could not find the language line "edit_user_validation_phone_label"
+DEBUG - 2015-02-07 08:57:40 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-02-07 08:57:40 --> Config Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:57:40 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> URI Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> No URI present. Default controller set.
+DEBUG - 2015-02-07 08:57:40 --> Router Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Output Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Security Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Input Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:57:40 --> Language Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:57:40 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:57:40 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:57:40 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:57:40 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:57:40 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:57:40 --> Email Class Initialized
+DEBUG - 2015-02-07 08:57:40 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:57:40 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:57:40 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:57:40 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:57:41 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:41 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:57:41 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:57:41 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:57:41 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:57:41 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:41 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2015-02-07 08:57:41 --> Pagination Class Initialized
+DEBUG - 2015-02-07 08:57:41 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:41 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:41 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:57:41 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:57:41 --> File loaded: C:\xampp\htdocs\myblog\application\views\welcome_message.php
+DEBUG - 2015-02-07 08:57:41 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:57:41 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:57:41 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:57:41 --> Final output sent to browser
+DEBUG - 2015-02-07 08:57:41 --> Total execution time: 0.8300
+DEBUG - 2015-02-07 08:57:56 --> Config Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:57:56 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> URI Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Router Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Output Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Security Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Input Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:57:56 --> Language Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:57:56 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:57:56 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:57:56 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:57:56 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:57:56 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:57:56 --> Email Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:57:56 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:57:56 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:57:56 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:57:56 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:57:56 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:57:56 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:57:56 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:57:56 --> Language file loaded: language/english/auth_lang.php
+ERROR - 2015-02-07 08:57:56 --> Could not find the language line "edit_user_validation_phone_label"
+DEBUG - 2015-02-07 08:57:56 --> Helper loaded: string_helper
+DEBUG - 2015-02-07 08:57:56 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:56 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:57 --> Model Class Initialized
+DEBUG - 2015-02-07 08:57:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:57:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:57:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/edit_user.php
+DEBUG - 2015-02-07 08:57:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:57:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:57:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:57:57 --> Final output sent to browser
+DEBUG - 2015-02-07 08:57:57 --> Total execution time: 0.9791
+DEBUG - 2015-02-07 08:58:00 --> Config Class Initialized
+DEBUG - 2015-02-07 08:58:00 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:58:00 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:58:00 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:58:00 --> URI Class Initialized
+DEBUG - 2015-02-07 08:58:00 --> Router Class Initialized
+DEBUG - 2015-02-07 08:58:00 --> Output Class Initialized
+DEBUG - 2015-02-07 08:58:00 --> Security Class Initialized
+DEBUG - 2015-02-07 08:58:00 --> Input Class Initialized
+DEBUG - 2015-02-07 08:58:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:58:00 --> Language Class Initialized
+DEBUG - 2015-02-07 08:58:00 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:58:00 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:58:00 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:58:00 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:58:00 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:58:00 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:58:00 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:58:01 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:58:01 --> Email Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:58:01 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:58:01 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:58:01 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:58:01 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:58:01 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:58:01 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:58:01 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:58:01 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 08:58:01 --> Session: Creating new session (e6fa5ae14dfc15dccb4861ad73c4733b)
+DEBUG - 2015-02-07 08:58:01 --> Config Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:58:01 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> URI Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Router Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Output Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Security Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Input Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:58:01 --> Language Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:58:01 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:58:01 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:58:01 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:58:01 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:58:01 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:58:01 --> Email Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:58:01 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:58:01 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:58:01 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:58:01 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:58:01 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:58:01 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:58:01 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:58:01 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 08:58:01 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:01 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:02 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:58:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:58:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/login.php
+DEBUG - 2015-02-07 08:58:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:58:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:58:02 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:58:02 --> Final output sent to browser
+DEBUG - 2015-02-07 08:58:02 --> Total execution time: 0.6540
+DEBUG - 2015-02-07 08:58:04 --> Config Class Initialized
+DEBUG - 2015-02-07 08:58:04 --> Hooks Class Initialized
+DEBUG - 2015-02-07 08:58:04 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 08:58:04 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 08:58:04 --> URI Class Initialized
+DEBUG - 2015-02-07 08:58:04 --> Router Class Initialized
+DEBUG - 2015-02-07 08:58:04 --> Output Class Initialized
+DEBUG - 2015-02-07 08:58:04 --> Security Class Initialized
+DEBUG - 2015-02-07 08:58:04 --> Input Class Initialized
+DEBUG - 2015-02-07 08:58:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 08:58:04 --> Language Class Initialized
+DEBUG - 2015-02-07 08:58:04 --> Loader Class Initialized
+DEBUG - 2015-02-07 08:58:04 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 08:58:04 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 08:58:04 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 08:58:04 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 08:58:04 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 08:58:04 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 08:58:05 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:05 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:05 --> Controller Class Initialized
+DEBUG - 2015-02-07 08:58:05 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 08:58:05 --> Email Class Initialized
+DEBUG - 2015-02-07 08:58:05 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 08:58:05 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 08:58:05 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 08:58:05 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 08:58:05 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:05 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 08:58:05 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 08:58:05 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 08:58:05 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 08:58:05 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 08:58:05 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 08:58:05 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 08:58:05 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:05 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:05 --> Model Class Initialized
+DEBUG - 2015-02-07 08:58:05 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 08:58:05 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 08:58:05 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/forgot_password.php
+DEBUG - 2015-02-07 08:58:05 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 08:58:05 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 08:58:05 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 08:58:05 --> Final output sent to browser
+DEBUG - 2015-02-07 08:58:05 --> Total execution time: 0.8510
+DEBUG - 2015-02-07 16:32:21 --> Config Class Initialized
+DEBUG - 2015-02-07 16:32:21 --> Hooks Class Initialized
+DEBUG - 2015-02-07 16:32:21 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 16:32:21 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> URI Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> Router Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> Output Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> Security Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> Input Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 16:32:22 --> Language Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> Loader Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 16:32:22 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 16:32:22 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 16:32:22 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 16:32:22 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> A session cookie was not found.
+DEBUG - 2015-02-07 16:32:22 --> Session: Creating new session (8164496dc7774bad8e1019f320e49471)
+DEBUG - 2015-02-07 16:32:22 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 16:32:22 --> Model Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> Model Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> Controller Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 16:32:22 --> Email Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 16:32:22 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 16:32:22 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 16:32:22 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 16:32:22 --> Model Class Initialized
+DEBUG - 2015-02-07 16:32:22 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 16:32:24 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 16:32:24 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 16:32:24 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 16:32:24 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 16:32:24 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 16:32:24 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 16:32:24 --> Model Class Initialized
+DEBUG - 2015-02-07 16:32:25 --> Model Class Initialized
+DEBUG - 2015-02-07 16:32:25 --> Model Class Initialized
+DEBUG - 2015-02-07 16:32:25 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 16:32:25 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 16:32:25 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/forgot_password.php
+DEBUG - 2015-02-07 16:32:25 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 16:32:26 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 16:32:26 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 16:32:26 --> Final output sent to browser
+DEBUG - 2015-02-07 16:32:26 --> Total execution time: 4.0702
+DEBUG - 2015-02-07 16:47:33 --> Config Class Initialized
+DEBUG - 2015-02-07 16:47:33 --> Hooks Class Initialized
+DEBUG - 2015-02-07 16:47:33 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 16:47:33 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 16:47:33 --> URI Class Initialized
+DEBUG - 2015-02-07 16:47:33 --> Router Class Initialized
+DEBUG - 2015-02-07 16:47:33 --> Output Class Initialized
+DEBUG - 2015-02-07 16:47:33 --> Security Class Initialized
+DEBUG - 2015-02-07 16:47:33 --> Input Class Initialized
+DEBUG - 2015-02-07 16:47:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 16:47:33 --> Language Class Initialized
+DEBUG - 2015-02-07 16:47:33 --> Loader Class Initialized
+DEBUG - 2015-02-07 16:47:33 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 16:47:34 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 16:47:34 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 16:47:34 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 16:47:34 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 16:47:34 --> Session: Regenerate ID
+DEBUG - 2015-02-07 16:47:34 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 16:47:34 --> Model Class Initialized
+DEBUG - 2015-02-07 16:47:34 --> Model Class Initialized
+DEBUG - 2015-02-07 16:47:34 --> Controller Class Initialized
+DEBUG - 2015-02-07 16:47:34 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 16:47:34 --> Email Class Initialized
+DEBUG - 2015-02-07 16:47:34 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 16:47:34 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 16:47:34 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 16:47:34 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 16:47:34 --> Model Class Initialized
+DEBUG - 2015-02-07 16:47:34 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 16:47:34 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 16:47:35 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 16:47:35 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 16:47:35 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 16:47:35 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 16:47:35 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 16:47:35 --> Model Class Initialized
+DEBUG - 2015-02-07 16:47:36 --> Model Class Initialized
+DEBUG - 2015-02-07 16:47:37 --> Model Class Initialized
+DEBUG - 2015-02-07 16:47:37 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 16:47:37 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 16:47:37 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/forgot_password.php
+DEBUG - 2015-02-07 16:47:37 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 16:47:37 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 16:47:37 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 16:47:37 --> Final output sent to browser
+DEBUG - 2015-02-07 16:47:37 --> Total execution time: 4.3552
+DEBUG - 2015-02-07 17:02:43 --> Config Class Initialized
+DEBUG - 2015-02-07 17:02:43 --> Hooks Class Initialized
+DEBUG - 2015-02-07 17:02:43 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 17:02:43 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 17:02:43 --> URI Class Initialized
+DEBUG - 2015-02-07 17:02:43 --> Router Class Initialized
+DEBUG - 2015-02-07 17:02:43 --> Output Class Initialized
+DEBUG - 2015-02-07 17:02:43 --> Security Class Initialized
+DEBUG - 2015-02-07 17:02:43 --> Input Class Initialized
+DEBUG - 2015-02-07 17:02:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 17:02:43 --> Language Class Initialized
+DEBUG - 2015-02-07 17:02:44 --> Loader Class Initialized
+DEBUG - 2015-02-07 17:02:44 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 17:02:44 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 17:02:44 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 17:02:44 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 17:02:44 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 17:02:44 --> Session: Regenerate ID
+DEBUG - 2015-02-07 17:02:44 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 17:02:44 --> Model Class Initialized
+DEBUG - 2015-02-07 17:02:44 --> Model Class Initialized
+DEBUG - 2015-02-07 17:02:44 --> Controller Class Initialized
+DEBUG - 2015-02-07 17:02:44 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 17:02:44 --> Email Class Initialized
+DEBUG - 2015-02-07 17:02:45 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 17:02:45 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 17:02:45 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 17:02:45 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 17:02:45 --> Model Class Initialized
+DEBUG - 2015-02-07 17:02:45 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 17:02:46 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 17:02:46 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 17:02:46 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 17:02:46 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 17:02:46 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 17:02:46 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 17:02:46 --> Model Class Initialized
+DEBUG - 2015-02-07 17:02:48 --> Model Class Initialized
+DEBUG - 2015-02-07 17:02:48 --> Model Class Initialized
+DEBUG - 2015-02-07 17:02:48 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 17:02:48 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 17:02:48 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/forgot_password.php
+DEBUG - 2015-02-07 17:02:48 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 17:02:49 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 17:02:49 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 17:02:49 --> Final output sent to browser
+DEBUG - 2015-02-07 17:02:49 --> Total execution time: 5.5363
+DEBUG - 2015-02-07 17:17:53 --> Config Class Initialized
+DEBUG - 2015-02-07 17:17:53 --> Hooks Class Initialized
+DEBUG - 2015-02-07 17:17:53 --> UTF-8 Support Enabled
+DEBUG - 2015-02-07 17:17:53 --> Utf8 Class Initialized
+DEBUG - 2015-02-07 17:17:53 --> URI Class Initialized
+DEBUG - 2015-02-07 17:17:53 --> Router Class Initialized
+DEBUG - 2015-02-07 17:17:53 --> Output Class Initialized
+DEBUG - 2015-02-07 17:17:53 --> Security Class Initialized
+DEBUG - 2015-02-07 17:17:53 --> Input Class Initialized
+DEBUG - 2015-02-07 17:17:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-02-07 17:17:53 --> Language Class Initialized
+DEBUG - 2015-02-07 17:17:53 --> Loader Class Initialized
+DEBUG - 2015-02-07 17:17:54 --> Helper loaded: admin_helper
+DEBUG - 2015-02-07 17:17:54 --> Helper loaded: url_helper
+DEBUG - 2015-02-07 17:17:54 --> Helper loaded: link_helper
+DEBUG - 2015-02-07 17:17:54 --> Helper loaded: debug_helper
+DEBUG - 2015-02-07 17:17:54 --> CI_Session Class Initialized
+DEBUG - 2015-02-07 17:17:54 --> Session: Regenerate ID
+DEBUG - 2015-02-07 17:17:54 --> CI_Session routines successfully run
+DEBUG - 2015-02-07 17:17:54 --> Model Class Initialized
+DEBUG - 2015-02-07 17:17:54 --> Model Class Initialized
+DEBUG - 2015-02-07 17:17:54 --> Controller Class Initialized
+DEBUG - 2015-02-07 17:17:54 --> Config file loaded: C:\xampp\htdocs\myblog\application\config/ion_auth.php
+DEBUG - 2015-02-07 17:17:54 --> Email Class Initialized
+DEBUG - 2015-02-07 17:17:54 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2015-02-07 17:17:54 --> Helper loaded: cookie_helper
+DEBUG - 2015-02-07 17:17:54 --> Helper loaded: language_helper
+DEBUG - 2015-02-07 17:17:54 --> Session has already been instantiated as 'session'. Second attempt aborted.
+DEBUG - 2015-02-07 17:17:54 --> Model Class Initialized
+DEBUG - 2015-02-07 17:17:54 --> Database Driver Class Initialized
+DEBUG - 2015-02-07 17:17:54 --> Helper loaded: date_helper
+DEBUG - 2015-02-07 17:17:54 --> Helper loaded: form_helper
+DEBUG - 2015-02-07 17:17:54 --> Form Validation Class Initialized
+DEBUG - 2015-02-07 17:17:54 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-02-07 17:17:54 --> Form_validation has already been instantiated as 'form_validation'. Second attempt aborted.
+DEBUG - 2015-02-07 17:17:54 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2015-02-07 17:17:54 --> Model Class Initialized
+DEBUG - 2015-02-07 17:17:56 --> Model Class Initialized
+DEBUG - 2015-02-07 17:17:56 --> Model Class Initialized
+DEBUG - 2015-02-07 17:17:56 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/nav.php
+DEBUG - 2015-02-07 17:17:56 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/header.php
+DEBUG - 2015-02-07 17:17:56 --> File loaded: C:\xampp\htdocs\myblog\application\views\auth/forgot_password.php
+DEBUG - 2015-02-07 17:17:56 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/pagination.php
+DEBUG - 2015-02-07 17:17:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/sidebar.php
+DEBUG - 2015-02-07 17:17:57 --> File loaded: C:\xampp\htdocs\myblog\application\views\layout/footer.php
+DEBUG - 2015-02-07 17:17:57 --> Final output sent to browser
+DEBUG - 2015-02-07 17:17:57 --> Total execution time: 3.6752

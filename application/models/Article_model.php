@@ -110,29 +110,29 @@ class Article_model extends Base_model {
     private function _saveArticleCategoryTag($entity, $post, $categories, $tags) {
         $postCategories = explode(',', $post['categories']);
         $postTags = explode(',', $post['tags']);
-        
+
         $this->_checkValidCategory($postCategories, $categories, $entity);
         $this->_checkValidTag($postTags, $tags, $entity);
     }
-    
+
     private function _checkValidCategory($postCategories, $listDbCategory, $article) {
-        $articleCategoriesSaved = [];        
+        $articleCategoriesSaved = [];
         // delete old category
-        foreach($article->getCategories() AS $item) {
-            if(!in_array($item->getCategory()->getName(), $postCategories)) {
+        foreach ($article->getCategories() AS $item) {
+            if (!in_array($item->getCategory()->getName(), $postCategories)) {
                 $this->em->remove($item->getCategory());
             } else {
                 $articleCategoriesSaved[$item->getCategory()->getName()] = $item->getCategory();
             }
         }
-        
+
         foreach ($postCategories AS $cat) {
             // check category is assign to article
-            if(!array_key_exists($cat, $articleCategoriesSaved)) {                
+            if (!array_key_exists($cat, $articleCategoriesSaved)) {
                 // check category is new
                 $articleCategoryObject = new Entity\ArticleCategories();
                 $articleCategoryObject->setArticle($article);
-                if(!array_key_exists($cat, $listDbCategory)) {
+                if (!array_key_exists($cat, $listDbCategory)) {
                     // create new category
                     $categoryObject = new Entity\Categories();
                     $categoryObject->setName(trim($cat));
@@ -148,25 +148,25 @@ class Article_model extends Base_model {
             }
         }
     }
-    
+
     private function _checkValidTag($postTags, $listDbTag, $article) {
-        $articleTagsSaved = [];        
+        $articleTagsSaved = [];
         // delete old category
-        foreach($article->getTags() AS $item) {
-            if(!in_array($item->getTag()->getName(), $postTags)) {
+        foreach ($article->getTags() AS $item) {
+            if (!in_array($item->getTag()->getName(), $postTags)) {
                 $this->em->remove($item->getTag());
             } else {
                 $articleTagsSaved[$item->getTag()->getName()] = $item->getTag();
             }
         }
-        
+
         foreach ($postTags AS $cat) {
             // check category is assign to article
-            if(!array_key_exists($cat, $articleTagsSaved)) {                
+            if (!array_key_exists($cat, $articleTagsSaved)) {
                 // check category is new
                 $articleTagObject = new Entity\ArticleTags();
                 $articleTagObject->setArticle($article);
-                if(!array_key_exists($cat, $listDbTag)) {
+                if (!array_key_exists($cat, $listDbTag)) {
                     // create new category
                     $tagObject = new Entity\Tags();
                     $tagObject->setName(trim($cat));
@@ -201,11 +201,11 @@ class Article_model extends Base_model {
     }
 
     public function increaseView(Entity\Articles $article) {
-        if($this->session->userdata('user_id')) {
+        if ($this->session->userdata('user_id')) {
             $userArticle = new Entity\UserArticles();
             $userArticle->setArticle($article);
             $userArticle->setUser($this->em->getRepository('Entity\Users')->find($this->session->userdata('user_id')));
-            $this->em->persist($userArticle);            
+            $this->em->persist($userArticle);
         }
         $article->setViews($article->getViews() + 1);
         $this->em->flush();
@@ -227,13 +227,29 @@ class Article_model extends Base_model {
             $return[$tag->getName()] = $tag;
         }
         return $return;
-    }   
-    
+    }
+
     public function getRandomArticle() {
         $qb = $this->em->createQueryBuilder();
         $qb->select('a.title', 'a.slugName')
                 ->from('Entity\Articles', 'a');
         return $qb->getQuery()->getArrayResult();
+    }
+
+    public function getLastArticleViewed() {
+        if ($this->session->userdata('user_id')) {
+            $qb = $this->em->createQueryBuilder();
+            $qb->select('ua')
+                    ->from('Entity\UserArticles', 'ua')
+                    ->leftJoin('ua.user', 'u')
+                    ->where('u.id = ' . $this->session->userdata('user_id'))
+                    ->orderBy('ua.created', 'desc')
+                    ->groupBy('ua.article')
+                    ->setMaxResults('5');
+            return $qb->getQuery()->getResult();
+        } else {
+            return null;
+        }
     }
 
 }

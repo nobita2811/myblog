@@ -26,10 +26,10 @@ class article extends MY_Controller {
                 ];
             }
             
+            $this->article_model->increaseView($data['article']);
             $this->load->view('layout/header');
             $this->load->view('article/index', $data);
             $this->load->view('layout/footer');
-            $this->article_model->increaseView($data['article']);
         } else {
             redirect('/');
         }

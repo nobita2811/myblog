@@ -1,5 +1,5 @@
 <?php
-
+require_once 'link_helper.php';
 function ip_info($ip = NULL, $purpose = "location", $deep_detect = TRUE) {
     $output = NULL;
     if (filter_var($ip, FILTER_VALIDATE_IP) === FALSE) {
@@ -65,8 +65,10 @@ function ip_info($ip = NULL, $purpose = "location", $deep_detect = TRUE) {
     return $output;
 }
 
+$CI = & get_instance();
+
 function getRandomArticle() {
-    $CI = & get_instance();
+    global $CI;
     $CI->load->model('article_model');
     $articles = $CI->article_model->getRandomArticle();
     $html = '';
@@ -82,7 +84,7 @@ function splitStringByWord($string, $totalWord) {
 }
 
 function getCategoryNav() {
-    $CI = & get_instance();
+    global $CI;
     $CI->load->model('category_model');
     $categories = $CI->category_model->getAll();
     $html = '';
@@ -93,15 +95,35 @@ function getCategoryNav() {
 }
 
 function getTagNav($column) {
-    $CI = & get_instance();
+    global $CI;
     $CI->load->model('tag_model');
     $tags = $CI->tag_model->getAll();
     $allTags = count($tags);
     $maxTagInColumn = ceil($allTags / 3);
-    $tags = array_slice($tags, (($column-1) * $maxTagInColumn), $maxTagInColumn);
+    $columnTags = array_slice($tags, (($column-1) * $maxTagInColumn), $maxTagInColumn);
     $html = '';
-    foreach ($tags AS $tag) {
+    foreach ($columnTags AS $tag) {
         $html .= '<li><a href="' . base_url('/article/view/' . $tag->getSlugName()) . '">' . $tag->getName() . '</a></li>';
     }
-    return $html;    
+    return $html;
+}
+
+function getLastArticleViewed() {
+    global $CI;
+    $CI->load->model('article_model');
+    $articles = $CI->article_model->getLastArticleViewed();
+    if($CI->session->userdata('user_id')) {       
+        $html = '';
+        if(!count($articles)) {
+            return '<li>Bạn chưa xem bài nào cả!</li>';
+        } else {
+            foreach ($articles AS $article) {
+                $time = date_diff(new DateTime(), $article->getCreated())->format('%R%h giờ');
+                $html .= '<li><span><img src="'.  ($article->getArticle()->getFile() ? getUpload($article->getArticle()->getFile()->getFileName(), 0) : getUpload('', 0)).'" class="img-responsive img-last-view"></span><a href="' . base_url('/article/view/' . $article->getArticle()->getSlugName()) . '">' . $article->getArticle()->getTitle() . '</a> <i>'.$time.'</i></li>';
+            }
+            return $html;
+        }
+    } else {
+        return '<li>Bạn chưa đăng nhập!</li>';
+    }
 }
