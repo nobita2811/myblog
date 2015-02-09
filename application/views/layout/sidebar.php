@@ -1,29 +1,18 @@
 <div class="col-md-4 column">
     <hr>
-    <ul id="sideBarFix">
+    <ul>
         <li>
             <a href="<?php echo base_url('/category'); ?>">Xem toàn bộ danh mục</a>
         </li>
         <li>
             <a href="<?php echo base_url('/tag'); ?>">Xem toàn bộ thẻ tag</a>
         </li>
+    </ul>
+    <hr>
+    <ul id="sideBarFix">
         <li>
-            Integer molestie lorem at massa
+            1 số bài viết bạn vừa đã xem
         </li>
-        <li>
-            Facilisis in pretium nisl aliquet
-        </li>
-        <li>
-            Nulla volutpat aliquam velit
-        </li>
-        <li>
-            Faucibus porta lacus fringilla vel
-        </li>
-        <li>
-            Aenean sit amet erat nunc
-        </li>
-        <li>
-            Eget porttitor lorem
-        </li>
+        <?= getLastArticleViewed(); ?>
     </ul>
 </div>
