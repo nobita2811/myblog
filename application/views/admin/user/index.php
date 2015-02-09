@@ -35,8 +35,8 @@
                                     <td>'.$item->getCompany().'</td>
                                     <td>'.$item->getPhone().'</td>
                                     <td>
-                                        <a class="button-link" href="'.  $deleteLink . '/' . $item->getUsername().'">Delete</a> '
-                                    . '<a class="button-link" href="'.  $deleteEdit . '/' . $item->getUsername().'">Edit</a></td>
+                                        <a class="button-link" href="'.  $deleteLink . '/' . $item->getId().'">Delete</a> '
+                                    . '<a class="button-link" href="'.  $deleteEdit . '/' . $item->getId().'">Edit</a></td>
                                 </tr>
                                 ';
                         }

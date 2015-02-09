@@ -28,8 +28,8 @@ class Users extends MY_Controller {
         $this->load->view('admin/common/footer', $data);
     }
 
-    public function delete($slug_name) {
-        if($this->user_model->delete($slug_name)) {
+    public function delete($id) {
+        if($this->user_model->delete($id)) {
             $this->session->set_flashdata('result', 'success');
         } else {            
             $this->session->set_flashdata('result', 'fail');
@@ -37,10 +37,10 @@ class Users extends MY_Controller {
         redirect('admin/users/index');
     }
 
-    public function edit($slug_name) {
+    public function edit($id) {
         $this->load->view('admin/common/header');
-        $data['action'] = base_url('admin/users/edit/' . $slug_name);
-        $data['user'] = $this->user_model->getBySlugName($slug_name);
+        $data['action'] = base_url('admin/users/edit/' . $id);
+        $data['user'] = $this->user_model->getById($id);
         $this->load->view('admin/user/edit', $data);
         if($this->input->post()) {
             if($this->user_model->edit($this->input->post(), $data['user'])) {

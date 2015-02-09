@@ -19,9 +19,8 @@ class User_model extends Base_model {
         return $this->em->getRepository('Entity\Users')->findOneBy($condition);
     }
 
-    public function delete($slug_name) {
-        if ($this->getBySlugName($slug_name)) {
-            $user = $this->getBySlugName($slug_name);
+    public function delete($id) {
+        if ($user = $this->getById($id)) {
             $this->em->remove($user);
             $this->em->flush();
             return true;

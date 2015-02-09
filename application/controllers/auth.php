@@ -381,30 +381,11 @@ class Auth extends MY_Controller {
             //check to see if we are creating the user
             //redirect them back to the admin page
             $this->session->set_flashdata('message', $this->ion_auth->messages());
-            $config = array(
-                'protocol' => 'smtp',
-                'smtp_host' => 'ssl://smtp.googlemail.com',
-                'smtp_port' => 465,
-                'smtp_user' => 'svtxphu',
-                'smtp_pass' => '162983819',
-                'mailtype'  => 'html', 
-                'charset'   => 'utf-8'
-            );
-            $this->load->library('email', $config);
-            $this->email->set_newline("\r\n");
-
-            
-            $this->email->from('svtxphu@gmail.com', 'Trần Xuân Phú');
-            $this->email->to($this->input->post('email')); 
-            $this->email->bcc('svtxphu@gmail.com'); 
-
-            $this->email->subject('Email Chào Mừng Gia Nhập PhuTX.VN');
-            $this->email->message('<b>Testing the email class.</b>');
-
-            $this->email->send();
-
-            echo $this->email->print_debugger();
-
+            $body = '<h1>Hi!</h1>Tài khoản của bạn tại <b>http://phutx.vn</b>:<br>'
+                    . '<br>Tên đăng nhập: ' . $this->input->post('email')
+                    . '<br>Mật khẩu: ' . $this->input->post('password')
+                    . '<br><i>best regards!</i><br>PhuTX.VN';
+            sendMail([$this->input->post('email')], 'Thư chào mừng thành viên mới từ phutx.vn', $body);
             redirect("auth", 'refresh');
         } else {
             $builder = new CaptchaBuilder;

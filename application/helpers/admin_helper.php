@@ -127,3 +127,45 @@ function getLastArticleViewed() {
         return '<li>Bạn chưa đăng nhập!</li>';
     }
 }
+function _setMailConfig(&$mail) {    
+    $mail->IsSMTP();                                      // Set mailer to use SMTP
+    $mail->Host = 'smtp.gmail.com';                 // Specify main and backup server
+    $mail->Port = 587;                                    // Set the SMTP port
+    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+    $mail->Username = 'sujupro@gmail.com';                // SMTP username
+    $mail->Password = '6z86zacC';                  // SMTP password
+    $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
+    $mail->From = 'sujupro@gmail.com';
+    $mail->FromName = 'PhuTX.VN';
+}
+function sendMail($address = [], $subject = '', $body = '') {    
+    $mail = new PHPMailer;
+    _setMailConfig($mail);
+    if($address) {
+        foreach($address AS $ad) {
+            $mail->AddAddress($ad);               // Name is optional            
+        }
+    } else {
+        return ['status' => false, 'msg' => 'no address'];
+    }
+    $mail->IsHTML(true);
+    $mail->CharSet = 'UTF-8';
+    if($subject) {
+        $mail->Subject = $subject;
+    } else {
+        return ['status' => false, 'msg' => 'no subject'];        
+    }
+    if($body) {
+        $mail->Body    = $body;
+    } else {
+        return ['status' => false, 'msg' => 'no body'];        
+    }
+    if (!$mail->send()) {
+        return ['status' => false, 'msg' => $mail->ErrorInfo];   
+    } else {
+        return ['status' => true, 'msg' => ''];
+    }
+}
+function getComment() {
+    return '1';
+}
