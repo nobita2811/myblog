@@ -77,9 +77,7 @@ $(function () {
             ellipses2.hide();
         }
     });
-    $(window).scroll(function() {
-        $('#sideBarFix').css('width', $('#sideBarFix').parent().closest('div').width());        
-    });
+
     $('#sideBarFix').scrollToFixed({
         dontSetWidth: true,
         removeOffsets: true,
@@ -101,7 +99,6 @@ $(function () {
         },
         offsets: false
     });
-    $('.bxslider').show();
     $('.bxslider').bxSlider({
         pager: false,
         randomStart: true,
