@@ -11,6 +11,7 @@
 		"camna/codeigniter-doctrine": "1.*@dev",
 		"tracy/tracy": "dev-master",
 		"gregwar/captcha": "dev-master",
-		"phpmailer/phpmailer": "dev-master"
+		"phpmailer/phpmailer": "dev-master",
+                "google/apiclient": "dev-master"
 	}
 }

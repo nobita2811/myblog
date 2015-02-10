@@ -256,3 +256,13 @@ a:hover {
     text-decoration: none;
     background: #FFE68D;
 }
+.img-last-view {
+    height: 20px;
+    float: left;
+    display: inline-block;
+    margin-right: 4px;
+    border: 1px solid #9DA1A2;
+}
+.bxslider {
+    display: none;
+}

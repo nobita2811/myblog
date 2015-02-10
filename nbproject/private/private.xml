@@ -2,17 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/phutx/project/ups/myblog/application/models/Tag_model.php</file>
-            <file>file:/D:/phutx/project/ups/myblog/application/views/tag/view.php</file>
-            <file>file:/D:/phutx/project/ups/myblog/application/models/Entity/Categories.php</file>
-            <file>file:/D:/phutx/project/ups/myblog/application/views/layout/sidebar.php</file>
-            <file>file:/D:/phutx/project/ups/myblog/application/views/tag/index.php</file>
-            <file>file:/D:/phutx/project/ups/myblog/application/views/admin/article/addjs.php</file>
-            <file>file:/D:/phutx/project/ups/myblog/application/models/Entity/Tags.php</file>
-            <file>file:/D:/phutx/project/ups/myblog/application/controllers/tag.php</file>
-            <file>file:/D:/phutx/project/ups/myblog/application/models/Entity/Articles.php</file>
-            <file>file:/D:/phutx/project/ups/myblog/application/views/layout/nav.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

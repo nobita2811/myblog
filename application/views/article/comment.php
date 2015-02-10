@@ -1,20 +1,26 @@
 <link type="text/css" rel="stylesheet" href="<?= getCss('comment'); ?>">
-<div class="comment-real-time">
-    <?= getComment(); ?>
-</div>
+
 <form class="form-horizontal" id="form-comment">
     <div class="role">
         <div class="col-md-2">
-            <button type="submit" class="btn btn-default">Bình luận</button>
+            <button type="submit" class="btn btn-success">Bình luận</button>
         </div>
         <div class="col-md-5">
-            <input type="email" class="form-control" name="email" placeholder="Email" required>
+            <input type="email" value="<?= $user->getEmail(); ?>" class="form-control" name="email" placeholder="Email" required>
+            <input type="hidden" name="article" value="<?= $article->getId(); ?>">
         </div>
         <div class="col-md-5">
-            <input type="text" class="form-control" name="name" placeholder="Tên" required>
+            <input type="text" value="<?= $user->getUsername(); ?>" class="form-control" name="name" placeholder="Tên" required>
         </div>
         <div class="col-md-12">
             <textarea class="form-control" required name="content"></textarea>
         </div>
     </div>
 </form>
+
+<div class="clearfix"></div>
+<div class="row">
+    <div id="comment-real-time">
+    
+    </div>
+</div>

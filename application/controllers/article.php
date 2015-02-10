@@ -7,6 +7,7 @@ class article extends MY_Controller {
             // load this article
             $this->load->model('article_model');
             $data['article'] = $this->article_model->getBySlugName($slugName);
+            $data['user'] = $this->session->userdata('user_id') ? $this->article_model->getUser($this->session->userdata('user_id')) : new Entity\Users();
             if(!$data['article']) {
                 show_error('Bài viết không tìm thấy');
             }
@@ -31,6 +32,7 @@ class article extends MY_Controller {
             $this->load->view('article/index', $data);
             $this->load->view('article/comment', $data);
             $this->load->view('layout/footer');
+            $this->load->view('article/commentjs', $data);
         } else {
             redirect('/');
         }

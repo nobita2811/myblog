@@ -1,3 +1,23 @@
 textarea.form-control {
     margin-top: 10px;
 }
+#comment-real-time {
+    margin-top: 14px;
+    overflow: hidden;
+}
+.box-comment {
+    border-top: 1px dashed;
+    display: block;
+    margin: auto 20px;
+    padding: 5px;
+}
+.box-comment-avatar {
+    float: left;
+    margin-right: 12px;    
+}
+.box-comment-content {
+
+}
+.username {
+    font-weight: bold;
+}
