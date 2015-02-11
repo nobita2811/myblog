@@ -21,3 +21,23 @@ textarea.form-control {
 .username {
     font-weight: bold;
 }
+.child-comment {
+    padding-left: 10%;
+}
+.btn-remove-reply {
+    font-weight: bold;
+    margin-left: 1%;
+}
+.btn-remove-reply:hover {
+    cursor: pointer;
+}
+.form-show-reply {
+    padding-top: 5px;
+    text-align: center;
+}
+.form-comment-background {
+    background: #D9EDF7;
+    overflow: hidden;
+    padding-top: 10px;
+}
+

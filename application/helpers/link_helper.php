@@ -8,7 +8,10 @@ function getJs($js) {
     echo base_url(RS . '/js/' . $js . '.js');
 }
 
-function getAvatar(Entity\Users $user) {
+function getAvatar(Entity\Users $user = null) {
+    if(null === $user) {
+        return getImage('admin.png');        
+    }
     // user is admin
     if ($user->getGender()) {
         // user is man

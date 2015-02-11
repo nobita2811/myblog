@@ -1,4 +1,5 @@
-                    <footer>
+
+<footer>
                         <div class="navbar-fixed-bottom text-center alert-info">
                             <!-- load script -->
                             <?= AUTHOR ?> @ Using codeigniter version <?= CI_VERSION ?>
@@ -12,6 +13,8 @@
                             <script src="<?= getJs('bootstrap-tokenfield'); ?>"></script>
                             <script src="<?= getJs('jquery-scrolltofixed-min'); ?>"></script>
                             <script src="<?= getJs('jquery.dataTables.min'); ?>"></script>
+                            <script src="<?= getJs('jquery.nicescroll.min'); ?>"></script>
+                            <script src="<?= getJs('jquery.bxslider.min'); ?>"></script>
                             <script src="<?= getJs('common') ?>"></script>
                         </div>
                     </footer>

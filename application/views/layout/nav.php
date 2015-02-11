@@ -16,8 +16,22 @@
                     <a href="<?php echo base_url('/auth/logout'); ?>">Đăng xuất</a>
                 </li>
                 <?php if (is_array($this->session->userdata('group')) && in_array('admin', $this->session->userdata('group'))) { ?>
-                    <li>
-                        <a href="<?php echo base_url('/admin/categories'); ?>">Quản lý</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quản Lý<strong class="caret"></strong></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="<?php echo base_url('/admin/articles/add'); ?>">Tạo bài viết mới</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo base_url('/admin/categories/index'); ?>">Quản lý danh mục</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo base_url('/admin/files/index'); ?>">Quản lý file</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo base_url('/admin/users/index'); ?>">Quản lý thành viên</a>
+                            </li>
+                        </ul>
                     </li>
                 <?php } ?>
             <?php } else { ?>
@@ -34,7 +48,7 @@
                 <?= getRandomArticle(); ?>
             </ul>
         </div>
-        
+
         <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Thẻ Tag <b class="caret"></b></a>
@@ -59,7 +73,7 @@
                 </ul>
             </li>
         </ul>
-        
+
         <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Danh mục<strong class="caret"></strong></a>

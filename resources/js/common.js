@@ -128,7 +128,7 @@ $(function () {
         dblclickzoom: true, // (only when boxzoom=true) zoom activated when double click on box
         gesturezoom: true, // (only when boxzoom=true and with touch devices) zoom activated when pinch out/in on box
         grabcursorenabled: true, // (only when touchbehavior=true) display "grab" icon
-        autohidemode: true, /* how hide the scrollbar works, possible values: 
+        autohidemode: false, /* how hide the scrollbar works, possible values: 
           true | // hide when no scrolling
           "cursor" | // only cursor hidden
           false | // do not hide,

@@ -1,7 +1,7 @@
 <script type="text/javascript" src="<?= getJs('comment'); ?>"></script>
 <script>
     getAllArticle('<?= base_url('/comment/getallcommentbyarticle/' . $article->getId()); ?>');
-
+    
     $('#form-comment').on('submit', function () {
         $(this).attr('disabled', true);
         $.ajax({
@@ -15,6 +15,7 @@
             async: false
         });
         getAllArticle('<?= base_url('/comment/getallcommentbyarticle/' . $article->getId()); ?>');
+        removeReply();
         return false;
     });
 </script>

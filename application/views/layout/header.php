@@ -19,7 +19,9 @@
 
         <!-- Site CSS -->
         <link href="<?= getCss('bootstrap.min') ?>" rel="stylesheet" type="text/css">
-        <link href="<?= getCss('jquery.bxslider') ?>" rel="stylesheet" type="text/css">
+        <link href="<?= getCss('jquery.bxslider') ?>" rel="stylesheet" type="text/css">        
+        <link href="<?= getCss('jquery.dataTables.min') ?>" rel="stylesheet" type="text/css">
+        <link href="<?= getCss('jquery.dataTables_themeroller') ?>" rel="stylesheet" type="text/css">
         <link href="<?= getCss('custom') ?>" rel="stylesheet" type="text/css">
 
         <!-- Site Fonts -->

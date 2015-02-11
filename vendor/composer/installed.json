@@ -128,68 +128,6 @@
         "homepage": "http://vfs.bovigo.org/"
     },
     {
-        "name": "cocur/slugify",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/cocur/slugify.git",
-            "reference": "968714eb205d8b6da2fd71eb9a441cf937798763"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/cocur/slugify/zipball/968714eb205d8b6da2fd71eb9a441cf937798763",
-            "reference": "968714eb205d8b6da2fd71eb9a441cf937798763",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3"
-        },
-        "require-dev": {
-            "codeclimate/php-test-reporter": "dev-master",
-            "laravel/framework": "~4.1",
-            "mockery/mockery": "~0.9",
-            "phpunit/phpunit": "~3.7",
-            "sami/sami": "~1.3",
-            "satooshi/php-coveralls": "0.6.*",
-            "silex/silex": "~1.2",
-            "symfony/dependency-injection": "~2.4",
-            "symfony/http-kernel": "~2.4",
-            "twig/twig": "~1",
-            "zendframework/zend-modulemanager": "~2.2",
-            "zendframework/zend-servicemanager": "~2.2",
-            "zendframework/zend-view": "~2.2"
-        },
-        "time": "2015-01-13 21:03:03",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Cocur\\Slugify\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Ivo Bathke",
-                "email": "ivo.bathke@gmail.com"
-            },
-            {
-                "name": "Florian Eckerstorfer",
-                "email": "florian@eckerstorfer.co",
-                "homepage": "https://florian.ec"
-            }
-        ],
-        "description": "Converts a string into a slug.",
-        "keywords": [
-            "slug",
-            "slugify"
-        ]
-    },
-    {
         "name": "symfony/console",
         "version": "v2.6.4",
         "version_normalized": "2.6.4.0",
@@ -830,57 +768,6 @@
         "description": "CodeIgniter Wrapper for the Doctrine ORM"
     },
     {
-        "name": "gregwar/captcha",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "target-dir": "Gregwar/Captcha",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Gregwar/Captcha.git",
-            "reference": "c5357cb6f6d2c09f70ed1712382d44af6eae0865"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/c5357cb6f6d2c09f70ed1712382d44af6eae0865",
-            "reference": "c5357cb6f6d2c09f70ed1712382d44af6eae0865",
-            "shasum": ""
-        },
-        "require": {
-            "ext-gd": "*",
-            "php": ">=5.3.0"
-        },
-        "time": "2015-01-03 12:41:56",
-        "type": "captcha",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Gregwar\\Captcha": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Grégoire Passault",
-                "email": "g.passault@gmail.com",
-                "homepage": "http://www.gregwar.com/"
-            },
-            {
-                "name": "Jeremy Livingston",
-                "email": "jeremy.j.livingston@gmail.com"
-            }
-        ],
-        "description": "Captcha generator",
-        "homepage": "https://github.com/Gregwar/Captcha",
-        "keywords": [
-            "bot",
-            "captcha",
-            "spam"
-        ]
-    },
-    {
         "name": "phpmailer/phpmailer",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
@@ -936,47 +823,65 @@
         "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
     },
     {
-        "name": "google/apiclient",
+        "name": "cocur/slugify",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/google/google-api-php-client.git",
-            "reference": "c49bd6c2e9304cbfc58f42716ea0a817551778fb"
+            "url": "https://github.com/cocur/slugify.git",
+            "reference": "968714eb205d8b6da2fd71eb9a441cf937798763"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/google/google-api-php-client/zipball/c49bd6c2e9304cbfc58f42716ea0a817551778fb",
-            "reference": "c49bd6c2e9304cbfc58f42716ea0a817551778fb",
+            "url": "https://api.github.com/repos/cocur/slugify/zipball/968714eb205d8b6da2fd71eb9a441cf937798763",
+            "reference": "968714eb205d8b6da2fd71eb9a441cf937798763",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.2.1"
+            "php": ">=5.3.3"
         },
         "require-dev": {
-            "phpunit/phpunit": "3.7.*"
+            "codeclimate/php-test-reporter": "dev-master",
+            "laravel/framework": "~4.1",
+            "mockery/mockery": "~0.9",
+            "phpunit/phpunit": "~3.7",
+            "sami/sami": "~1.3",
+            "satooshi/php-coveralls": "0.6.*",
+            "silex/silex": "~1.2",
+            "symfony/dependency-injection": "~2.4",
+            "symfony/http-kernel": "~2.4",
+            "twig/twig": "~1",
+            "zendframework/zend-modulemanager": "~2.2",
+            "zendframework/zend-servicemanager": "~2.2",
+            "zendframework/zend-view": "~2.2"
         },
-        "time": "2015-02-10 00:36:10",
+        "time": "2015-01-13 21:03:03",
         "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.1.x-dev"
-            }
-        },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
-            "classmap": [
-                "src/"
-            ]
+            "psr-4": {
+                "Cocur\\Slugify\\": "src"
+            }
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "Apache-2.0"
+            "MIT"
         ],
-        "description": "Client library for Google APIs",
-        "homepage": "http://developers.google.com/api-client-library/php",
+        "authors": [
+            {
+                "name": "Ivo Bathke",
+                "email": "ivo.bathke@gmail.com"
+            },
+            {
+                "name": "Florian Eckerstorfer",
+                "email": "florian@eckerstorfer.co",
+                "homepage": "https://florian.ec"
+            }
+        ],
+        "description": "Converts a string into a slug.",
         "keywords": [
-            "google"
+            "slug",
+            "slugify"
         ]
     },
     {
@@ -986,12 +891,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/nette/tracy.git",
-            "reference": "00083f35e542266221a475ed4b48c620890abbec"
+            "reference": "0010aa94f683c1ae212b0d555dcbb4af92ef68e2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/nette/tracy/zipball/00083f35e542266221a475ed4b48c620890abbec",
-            "reference": "00083f35e542266221a475ed4b48c620890abbec",
+            "url": "https://api.github.com/repos/nette/tracy/zipball/0010aa94f683c1ae212b0d555dcbb4af92ef68e2",
+            "reference": "0010aa94f683c1ae212b0d555dcbb4af92ef68e2",
             "shasum": ""
         },
         "require": {
@@ -1001,14 +906,14 @@
             "nette/di": "~2.3",
             "nette/tester": "~1.3"
         },
-        "time": "2015-02-09 12:22:44",
+        "time": "2015-02-10 07:16:23",
         "type": "library",
         "extra": {
             "branch-alias": {
                 "dev-master": "2.3-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "classmap": [
                 "src"
@@ -1039,6 +944,101 @@
             "debug",
             "debugger",
             "nette"
+        ]
+    },
+    {
+        "name": "gregwar/captcha",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Gregwar/Captcha",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Gregwar/Captcha.git",
+            "reference": "c5357cb6f6d2c09f70ed1712382d44af6eae0865"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/c5357cb6f6d2c09f70ed1712382d44af6eae0865",
+            "reference": "c5357cb6f6d2c09f70ed1712382d44af6eae0865",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2015-01-03 12:41:56",
+        "type": "captcha",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Gregwar\\Captcha": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Grégoire Passault",
+                "email": "g.passault@gmail.com",
+                "homepage": "http://www.gregwar.com/"
+            },
+            {
+                "name": "Jeremy Livingston",
+                "email": "jeremy.j.livingston@gmail.com"
+            }
+        ],
+        "description": "Captcha generator",
+        "homepage": "https://github.com/Gregwar/Captcha",
+        "keywords": [
+            "bot",
+            "captcha",
+            "spam"
+        ]
+    },
+    {
+        "name": "google/apiclient",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/google/google-api-php-client.git",
+            "reference": "b16c6e2be3a574cd04f1b5d806bab0747e3671a0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/google/google-api-php-client/zipball/b16c6e2be3a574cd04f1b5d806bab0747e3671a0",
+            "reference": "b16c6e2be3a574cd04f1b5d806bab0747e3671a0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2015-02-10 11:37:48",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "description": "Client library for Google APIs",
+        "homepage": "http://developers.google.com/api-client-library/php",
+        "keywords": [
+            "google"
         ]
     }
 ]

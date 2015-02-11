@@ -42,14 +42,11 @@
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="<?= base_url('admin/users/index'); ?>">Statistic</a></li>
                             </ul>
+                        </li>                        
+                        <li>
+                            <a href="<?php echo base_url('/auth/logout'); ?>">Đăng xuất</a>
                         </li>
-                    </ul>
-                    <form class="navbar-form navbar-left" role="search">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </form>
+                    </ul>                    
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">Hi admin</a></li>
                     </ul>

@@ -33,7 +33,8 @@
 <script src="<?= getJs('jquery-scrolltofixed-min'); ?>"></script>
 <script src="<?= getJs('jquery.dataTables.min'); ?>"></script>
 <script src="<?= getJs('jquery.bxslider.min'); ?>"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.0/jquery.nicescroll.min.js"></script>
+<script src="<?= getJs('jquery.nicescroll.min'); ?>"></script>
 <script src="<?= getJs('common') ?>"></script>
 </body>
+
 </html>
