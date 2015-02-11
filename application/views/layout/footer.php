@@ -6,13 +6,13 @@
                         <hr id="fixBottom">
 			<div class="row clearfix">
 				<div class="col-md-4 column">
-					 <address> <strong>Twitter, Inc.</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890</address>
+					 <address> <strong>TRAN PHU, Inc.</strong><br /> 33 Ngõ Quỳnh - Bạch Mai<br /> Hai Bà Trưng - Hà Nội<br /> <abbr title="Phone">Điện thoại:</abbr> (097) 9930-752<br /> <abbr title="Email">Email:</abbr> svtxphu@gmail.com</address>
 				</div>
 				<div class="col-md-4 column">
-					 <address> <strong>Twitter, Inc.</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890</address>
+					 <address> <strong>TRAN PHU, Inc.</strong><br /> 33 Ngõ Quỳnh - Bạch Mai<br /> Hai Bà Trưng - Hà Nội<br /> <abbr title="Phone">Điện thoại:</abbr> (097) 9930-752<br /> <abbr title="Email">Email:</abbr> svtxphu@gmail.com</address>
 				</div>
 				<div class="col-md-4 column">
-					 <address> <strong>Twitter, Inc.</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890</address>
+					 <address> <strong>TRAN PHU, Inc.</strong><br /> 33 Ngõ Quỳnh - Bạch Mai<br /> Hai Bà Trưng - Hà Nội<br /> <abbr title="Phone">Điện thoại:</abbr> (097) 9930-752<br /> <abbr title="Email">Email:</abbr> svtxphu@gmail.com</address>
 				</div>
 			</div>
 		</div>
@@ -20,7 +20,7 @@
 		</div>
 	</div>        
 </div>
-<div class="navbar-fixed-bottom text-center alert-success">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></div>
+<!--<div class="navbar-fixed-bottom text-center alert-success">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></div>-->
 
 <script src="<?= getJs('jquery.min') ?>"></script>
 <script src="<?= getJs('jquery-ui.min') ?>"></script>
