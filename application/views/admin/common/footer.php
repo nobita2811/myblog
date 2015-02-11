@@ -2,7 +2,6 @@
 <footer>
                         <div class="navbar-fixed-bottom text-center alert-info">
                             <!-- load script -->
-                            <?= AUTHOR ?> @ Using codeigniter version <?= CI_VERSION ?>
                             <script src="<?= getJs('jquery.min') ?>"></script>
                             <script src="<?= getJs('jquery-ui.min') ?>"></script>
                             <script src="<?= getJs('affix') ?>"></script>

@@ -23,10 +23,6 @@
         <link href="<?= getCss('jquery.dataTables.min') ?>" rel="stylesheet" type="text/css">
         <link href="<?= getCss('jquery.dataTables_themeroller') ?>" rel="stylesheet" type="text/css">
         <link href="<?= getCss('custom') ?>" rel="stylesheet" type="text/css">
-
-        <!-- Site Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&amp;subset=latin,latin-ext,vietnamese' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=latin,latin-ext,vietnamese' rel='stylesheet' type='text/css'>
     </head>
     <body>
 <div class="container-fluid">

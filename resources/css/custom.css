@@ -266,3 +266,8 @@ a:hover {
 .bxslider {
     display: none;
 }
+.captcha {
+    border: 2px solid #dddddd;
+    float: right;
+    margin: auto;
+}
