@@ -17,17 +17,26 @@
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th>Slug Name</th>
+                            <th>Total Articlce</th>
+                            <th>Total View</th>
+                            <th>Total Comment</th>
                             <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php
                         foreach ($datas AS $item) {
+                            $totalView = $totalComment = 0;
+                            foreach($item->getArticles() AS $article) {
+                                $totalView += $article->getArticle()->getViews();
+                                $totalComment += count($article->getArticle()->getComments());
+                            }
                             echo '
                                 <tr>
-                                    <td>'.$item->getName().'</td>
-                                    <td>'.$item->getSlugName().'</td>
+                                    <td><a href="' .  base_url('category/view/'.$item->getSlugName()) . '" target="_blank">'.$item->getName().'</a></td>
+                                    <td>'.count($item->getArticles()).'</td>
+                                    <td>'.$totalView.'</td>
+                                    <td>'.$totalComment.'</td>
                                     <td>
                                         <a class="button-link" href="'.  $deleteLink . '/' . $item->getSlugName().'">Delete</a> '
                                     . '<a class="button-link" href="'.  $deleteEdit . '/' . $item->getSlugName().'">Edit</a></td>

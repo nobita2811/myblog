@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "76740891248e3ed76874b8a3afd0d2a6",
+    "hash": "df58874c6fd4d3dae072a064985df606",
     "packages": [],
     "packages-dev": [
         {
@@ -730,12 +730,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client.git",
-                "reference": "b16c6e2be3a574cd04f1b5d806bab0747e3671a0"
+                "reference": "b3853aa242dabf8f4b8e343d986f9368632c4eb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/b16c6e2be3a574cd04f1b5d806bab0747e3671a0",
-                "reference": "b16c6e2be3a574cd04f1b5d806bab0747e3671a0",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/b3853aa242dabf8f4b8e343d986f9368632c4eb6",
+                "reference": "b3853aa242dabf8f4b8e343d986f9368632c4eb6",
                 "shasum": ""
             },
             "require": {
@@ -764,7 +764,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2015-02-10 11:37:48"
+            "time": "2015-02-11 11:38:54"
         },
         {
             "name": "gregwar/captcha",

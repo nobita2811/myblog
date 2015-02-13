@@ -16,7 +16,7 @@
                 <table class="table table-hover table-responsive" id="dev-table">
                     <thead>
                         <tr>
-                            <th>File</th>
+                            <th style="width: 140px;">File</th>
                             <th>Tên file</th>
                             <th>File size</th>
                             <th>Ngày đăng</th>
@@ -31,7 +31,7 @@
                             $img = getUpload($item->getFileName(), 0);
                             echo '
                                 <tr>
-                                    <td style="max-width: 140px;"><img src="'.$img.'" class="img-responsive img-thumbnail"></td>
+                                    <td><img src="'.$img.'" class="img-responsive img-thumbnail"></td>
                                     <td>'.$item->getFilename().'</td>
                                     <td>'.$item->getFilesize().' KB</td>
                                     <td>'.$item->getCreated()->format('d-m-Y').'</td>

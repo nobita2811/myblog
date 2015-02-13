@@ -84,7 +84,7 @@ $(function () {
     $('#sideBarFix').scrollToFixed({
         dontSetWidth: true,
         removeOffsets: true,
-        marginTop: 50,
+        marginTop: 60,
         limit: function () {
             return $('#fixBottom').offset().top - $(this).outerHeight(true) - 10;
         },

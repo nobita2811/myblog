@@ -61,4 +61,10 @@ class Category_model extends Base_model {
         $this->em->flush();
     }
 
+    public function statisticCategory() {
+        $categories = $this->getAll();
+        foreach($categories AS $category) {
+            
+        }
+    }
 }

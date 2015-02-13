@@ -271,3 +271,6 @@ a:hover {
     float: right;
     margin: auto;
 }
+.admin-body {
+    background: #337AB7;
+}

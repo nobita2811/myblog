@@ -26,7 +26,7 @@
         <link href="<?= getCss('jquery.dataTables_themeroller') ?>" rel="stylesheet" type="text/css">
         <link href="<?= getCss('custom') ?>" rel="stylesheet" type="text/css">
     </head>
-    <body>
+    <body class="admin-body">
         <div class="container-fluid">
             <?php $this->load->view('admin/common/nav'); ?>
             <?php if($this->session->flashdata('result')) : ?>

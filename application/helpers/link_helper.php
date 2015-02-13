@@ -38,7 +38,7 @@ function getUpload($fileName = null, $return = 1) {
 function getCat($article) {
     $return = [];
     foreach ($article AS $item) {
-        $return[] = $item->getCategory()->getName();
+        $return[] = '<a href="' .  base_url('category/view/'.$item->getCategory()->getSlugName()) . '" target="_blank">'.$item->getCategory()->getName().'</a>';
     }
     return $return ? implode(',', $return) : '';
 }
@@ -46,7 +46,7 @@ function getCat($article) {
 function getTag($article) {
     $return = [];
     foreach ($article AS $item) {
-        $return[] = $item->getTag()->getName();
+        $return[] = '<a href="' .  base_url('tag/view/'.$item->getTag()->getSlugName()) . '" target="_blank">'.$item->getTag()->getName().'</a>';
     }
     return $return ? implode(',', $return) : '';
 }

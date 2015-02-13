@@ -48,7 +48,7 @@
                         </li>
                     </ul>                    
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Hi admin</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-tower"></span> <b><?= $this->session->userdata('identity'); ?></b></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->

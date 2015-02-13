@@ -89,7 +89,7 @@ function getCategoryNav() {
     $categories = $CI->category_model->getAll();
     $html = '';
     foreach ($categories AS $category) {
-        $html .= '<li><a href="' . base_url('/article/view/' . $category->getSlugName()) . '">' . $category->getName() . '</a></li>';
+        $html .= '<li><a href="' . base_url('/category/view/' . $category->getSlugName()) . '">' . $category->getName() . '</a></li>';
     }
     return $html;
 }
@@ -103,7 +103,7 @@ function getTagNav($column) {
     $columnTags = array_slice($tags, (($column-1) * $maxTagInColumn), $maxTagInColumn);
     $html = '';
     foreach ($columnTags AS $tag) {
-        $html .= '<li><a href="' . base_url('/article/view/' . $tag->getSlugName()) . '">' . $tag->getName() . '</a></li>';
+        $html .= '<li><a href="' . base_url('/tag/view/' . $tag->getSlugName()) . '">' . $tag->getName() . '</a></li>';
     }
     return $html;
 }

@@ -107,20 +107,28 @@ class Articles {
     /**
      * @var \ArticleCategories
      *
-     * @OneToMany(targetEntity="ArticleCategories", mappedBy="article", cascade={"remove"})
+     * @OneToMany(targetEntity="ArticleCategories", mappedBy="article", fetch="EXTRA_LAZY"))
      */
     private $categories;
     
     /**
      * @var \ArticleTags
      *
-     * @OneToMany(targetEntity="ArticleTags", mappedBy="article", cascade={"remove"})
+     * @OneToMany(targetEntity="ArticleTags", mappedBy="article", fetch="EXTRA_LAZY"))
      */
     private $tags;
+    
+    /**
+     * @var \Comments
+     *
+     * @OneToMany(targetEntity="Comments", mappedBy="article", cascade={"remove"}, fetch="EXTRA_LAZY"))
+     */
+    private $comments;
 
     public function __construct() {        
         $this->tags = new ArrayCollection();
         $this->categories = new ArrayCollection();
+        $this->comments = new ArrayCollection();
     }
     
     /**
@@ -379,6 +387,15 @@ class Articles {
      */
     public function getTags() {
         return $this->tags->toArray();
+    }
+
+    /**
+     * Get Comments
+     *
+     * @return \Entity\ArticleTags
+     */
+    public function getComments() {
+        return $this->comments->toArray();
     }
 
 }
