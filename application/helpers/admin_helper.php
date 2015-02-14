@@ -107,7 +107,16 @@ function getTagNav($column) {
     }
     return $html;
 }
-
+function getArticleSticky() {    
+    global $CI;
+    $CI->load->model('article_model');
+    $articles = $CI->article_model->getArticleSticky();
+    $html = '';
+    foreach ($articles AS $article) {
+        $html .= '<li><span><img src="'.  ($article->getFile() ? getUpload($article->getFile()->getFileName(), 0) : getUpload('', 0)).'" class="img-responsive img-last-view"></span><a href="' . base_url('/article/view/' . $article->getSlugName()) . '">' . $article->getTitle() . '</a></li>';
+    }
+    return $html;
+}
 function getLastArticleViewed() {
     global $CI;
     $CI->load->model('article_model');
@@ -165,7 +174,4 @@ function sendMail($address = [], $subject = '', $body = '') {
     } else {
         return ['status' => true, 'msg' => ''];
     }
-}
-function getComment() {
-    return '1';
 }

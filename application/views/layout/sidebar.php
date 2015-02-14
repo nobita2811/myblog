@@ -9,8 +9,15 @@
         </li>
     </ul>
     <hr>
-    <ul id="sideBarFix" class="list-unstyled">
+    <ul class="list-unstyled">
         <li>
+            <b>1 số bài viết bạn nên xem</b>
+        </li>
+        <?= getArticleSticky(); ?>
+    </ul>
+    <hr>
+    <ul id="sideBarFix" class="list-unstyled">
+        <li class="title">
             <b>1 số bài viết bạn vừa đã xem</b>
         </li>
         <?= getLastArticleViewed(); ?>

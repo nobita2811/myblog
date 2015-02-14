@@ -29,6 +29,8 @@
                                 <li><a href="<?= base_url('admin/articles/index'); ?>">Statistic</a></li>
                                 <li class="divider"></li>
                                 <li><a href="<?= base_url('admin/articles/add'); ?>">Add new article</a></li>
+                                <li class="divider"></li>
+                                <li><a href="<?= base_url('admin/articles/sticky'); ?>">List sticky</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -43,6 +45,9 @@
                                 <li><a href="<?= base_url('admin/users/index'); ?>">Statistic</a></li>
                             </ul>
                         </li>                        
+                        <li>
+                            <a href="<?php echo base_url('/admin/settings'); ?>">Cài đặt</a>
+                        </li>
                         <li>
                             <a href="<?php echo base_url('/auth/logout'); ?>">Đăng xuất</a>
                         </li>

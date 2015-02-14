@@ -36,7 +36,7 @@
                 <?php } ?>
             <?php } else { ?>
                 <li>
-                    <a href="<?php echo base_url('/auth/login'); ?>"><span class="glyphicon glyphicon-lock"></span> Đăng nhập</a>
+                    <a class="hvr-icon-buzz-out" href="<?php echo base_url('/auth/login'); ?>">Đăng nhập</a>
                 </li>
                 <li>
                     <a href="<?php echo base_url('/auth/create_user'); ?>"><span class="glyphicon glyphicon-pencil"></span> Đăng ký</a>

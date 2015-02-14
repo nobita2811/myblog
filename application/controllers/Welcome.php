@@ -1,7 +1,6 @@
 <?php
 
 defined('BASEPATH') OR exit('No direct script access allowed');
-require_once VENDOR_PATH . DS . 'phpmailer' . DS . 'phpmailer' . DS . 'PHPMailerAutoload.php';
 
 class Welcome extends MY_Controller {
 

@@ -16,6 +16,15 @@ class Articles extends MY_Controller {
         $this->load->view('admin/common/footer');
     }
 
+    public function sticky() {
+        $this->load->view('admin/common/header');
+        $data['datas'] = $this->article_model->getAllSticky();
+        $data['deleteLink'] = base_url('admin/articles/delete/');
+        $data['deleteEdit'] = base_url('admin/articles/edit/');
+        $this->load->view('admin/article/sticky', $data);
+        $this->load->view('admin/common/footer');
+    }
+
     public function add() {
         $this->load->view('admin/common/header');
         $data['action'] = base_url('admin/articles/add');

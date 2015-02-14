@@ -14,6 +14,10 @@ class Article_model extends Base_model {
         }
     }
 
+    public function getAllSticky($page = null, $totalRecord = null, $perPage = null) {
+        return $this->em->getRepository('Entity\Articles')->findBy(['sticky' => 1], ['id' => 'DESC']);
+    }
+
     public function getById($id) {
         return $this->em->getRepository('Entity\Articles')->find($id);
     }
@@ -43,7 +47,7 @@ class Article_model extends Base_model {
         try {
             $user = $this->em->getRepository('Entity\Users')->find($this->session->userdata('user_id'));
             $article->setTitle(trim($data['title']));
-            $article->setSlugName($this->slug->slugify(trim($data['title'])));
+            $article->setSlugName(trim($data['slugname']) ? trim($data['slugname']) : $this->slug->slugify(trim($data['title'])));
             $article->setOriginSource($data['source']);
             $article->setSticky(isset($data['sticky']) ? $data['sticky'] : 0);
             $article->setSummary($data['summary']);
@@ -252,4 +256,11 @@ class Article_model extends Base_model {
         }
     }
 
+    public function getArticleSticky() {        
+        $qb = $this->em->createQueryBuilder();
+        $qb->select('a')
+                ->from('Entity\Articles', 'a')
+                ->where('a.sticky = 1');
+        return $qb->getQuery()->getResult();
+    }
 }

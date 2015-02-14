@@ -89,16 +89,10 @@ $(function () {
             return $('#fixBottom').offset().top - $(this).outerHeight(true) - 10;
         },
         preFixed: function () {
-            $(this).find('.title').css('color', 'blue');
-        },
-        preAbsolute: function () {
-            $(this).find('.title').css('color', 'red');
+            $(this).addClass('affix');
         },
         postFixed: function () {
-            $(this).find('.title').css('color', '');
-        },
-        postAbsolute: function () {
-            $(this).find('.title').css('color', '');
+            $(this).removeClass('affix');
         },
         offsets: false
     });

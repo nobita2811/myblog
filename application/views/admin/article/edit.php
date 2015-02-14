@@ -7,6 +7,12 @@
         </div>
         <div class="clearfix"></div>
         <div class="form-group">
+            <label for="articleSlugName">Link ảo</label>
+            <input name="slugname" type="text" class="form-control " id="articleName" value="<?= $article->getSlugName(); ?>">
+            <small>Nếu để trống sẽ sử dụng tên bài viết để cấu thành link ảo.</small>
+        </div>
+        <div class="clearfix"></div>
+        <div class="form-group">
             <label for="articleCategory">Danh mục</label>
             <input type="text" class="form-control" id="articleCategory" name="categories" value="<?= isset($articleCategories) ? implode(',', $articleCategories) : ''; ?>">
         </div>

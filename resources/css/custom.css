@@ -254,7 +254,6 @@ body {
 }
 a:hover {
     text-decoration: none;
-    background: #FFE68D;
 }
 .img-last-view {
     height: 20px;
@@ -271,6 +270,113 @@ a:hover {
     float: right;
     margin: auto;
 }
-.admin-body {
-    background: #337AB7;
+.article-home {
+    background: #ededed;
+    padding: 10px;
+    margin: 15px 5px;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(224,224,224,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(224,224,224,1);
+    box-shadow: 0px 5px 5px 0px rgba(224,224,224,1);
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+p,
+[class^="hvr-"] {
+    font-family: 'Roboto', sans-serif;
+}
+
+@-webkit-keyframes circle {
+    50% {
+        -webkit-transform: scale(1.26923077);
+    }
+}
+
+@-webkit-keyframes initials {
+    50% {
+        -webkit-transform: translateY(-8px) translateZ(0);
+    }
+}
+
+@keyframes circle {
+    50% {
+        transform: scale(1.26923077);
+    }
+}
+
+@keyframes initials {
+    50% {
+        transform: translateY(-8px) translateZ(0);
+    }
+}
+
+.ild-ident svg {
+    overflow: visible;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.ild-ident .circle-holder {
+    -webkit-transform: translate(-7px, -7px);
+    transform: translate(-7px, -7px);
+}
+
+.ild-ident .circle {
+    -webkit-transform: translate(7px, 7px);
+    transform: translate(7px, 7px);
+}
+
+.ild-ident svg.active .i {
+    -webkit-animation: initials .4s ease-in-out;
+    animation: initials .4s ease-in-out;
+}
+
+.ild-ident svg.active .l {
+    -webkit-animation: initials .4s .2s ease-in-out;
+    animation: initials .4s .2s ease-in-out;
+}
+
+.ild-ident svg.active .circle {
+    -webkit-animation: circle .5s .1s ease-in-out;
+    animation: circle .5s .1s ease-in-out;
+}
+
+@media screen and (min-width: 640px) {
+    #forkongithub {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        width: 200px;
+        overflow: hidden;
+        height: 200px;
+    }
+
+    #forkongithub a {
+        width: 200px;
+        position: absolute;
+        top: 60px;
+        right: -60px;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        box-shadow: 4px 4px 10px rgba(0,0,0,0.8);
+    }
+}
+.affix {
+    background: #ededed;
+    padding: 10px;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(224,224,224,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(224,224,224,1);
+    box-shadow: 0px 5px 5px 0px rgba(224,224,224,1);
 }

@@ -1,7 +1,8 @@
 <?php
 foreach ($datas AS $article) :
     ?>
-    <h4>
+<div class="article-home">
+    <h4 class="article-title">
         <a href="<?= base_url('article/view/' . $article->getSlugname()); ?>"><?php echo $article->getTitle(); ?></a>
     </h4>
     <div class="row clearfix">
@@ -13,8 +14,10 @@ foreach ($datas AS $article) :
         <div class="col-md-8 column">
             <span class="glyphicon glyphicon-file"></span> <?php echo $article->getSummary(); ?> 
             <span class="glyphicon glyphicon-hand-right"></span> <a href="<?= base_url('article/view/' . $article->getSlugname()); ?>">Xem chi tiết...</a>
-            <br>
-            <i>
+        </div>
+    </div>
+    <p class="text-right">
+    <i>
                 <span class="glyphicon glyphicon-eye-open"></span> <span>Lượt xem: <?= $article->getViews(); ?></span>
                 <span class="glyphicon glyphicon-list"></span> <span>Danh mục: 
             <?php
@@ -24,9 +27,8 @@ foreach ($datas AS $article) :
             ?>
             </span>
             </i>
-        </div>
-    </div>
-    <hr>
+    </p>
+</div>
     <?php
 endforeach;
 ?>
