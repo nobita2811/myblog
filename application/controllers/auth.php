@@ -688,7 +688,7 @@ class Auth extends MY_Controller {
     }
 
     function _render_page($view, $data = null, $render = false) {
-        $this->load->view('layout/header');
+        $this->load->view('layout/header', $data);
         $this->viewdata = (empty($data)) ? $this->data : $data;
         $view_html = $this->load->view($view, $this->viewdata, $render);
         $this->load->view('layout/footer');

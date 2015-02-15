@@ -107,7 +107,7 @@ function getTagNav($column) {
     }
     return $html;
 }
-function getArticleSticky() {    
+function getArticleSticky() {
     global $CI;
     $CI->load->model('article_model');
     $articles = $CI->article_model->getArticleSticky();
@@ -174,4 +174,12 @@ function sendMail($address = [], $subject = '', $body = '') {
     } else {
         return ['status' => true, 'msg' => ''];
     }
+}
+function getTitle($vars) {
+    global $CI;
+//    dv($vars);
+    if(isset($vars['article']) && is_object($vars['article'])) {
+        return ' - '.$vars['article']->getTitle();
+    }
+    return $CI->uri->uri_string ? ' - ' . $CI->uri->uri_string : ' - Trang Chủ';
 }

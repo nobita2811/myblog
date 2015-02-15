@@ -1,4 +1,5 @@
 <?php
+if($datas) {
 foreach ($datas AS $article) :
     ?>
 <div class="article-home">
@@ -31,4 +32,7 @@ foreach ($datas AS $article) :
 </div>
     <?php
 endforeach;
+} else {
+    echo 'No data';
+}
 ?>

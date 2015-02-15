@@ -1,4 +1,14 @@
 <div class="col-md-4 column">
+    <form class="navbar-form navbar-left" role="search" method="post" action="<?= base_url('/search'); ?>">
+        <div class="input-group">
+            <input type="text" name="title" class="form-control" placeholder="Tìm kiếm" required autocomplete="off" value="<?php echo isset($search) ? $search : ''; ?>">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="submit">Tìm!</button>
+            </span>
+        </div><!-- /input-group -->
+        <div class="clearfix"></div>
+    </form>
+        <span class='small'>Nhập tiếng việt không dấu sẽ cho kết quả chính xác</span>
     <hr>
     <ul class="list-unstyled">
         <li>

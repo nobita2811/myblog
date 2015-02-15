@@ -1,9 +1,26 @@
 <?php
 
+use Doctrine\ORM\Query\ResultSetMapping;
+
 class Article_model extends Base_model {
 
     public function __construct() {
         parent::__construct();
+    }
+
+    public function getSearchTitle($title, $page = null, $perPage = null) {
+        $rsm = new ResultSetMapping();
+        $rsm->addEntityResult('Entity\Articles', 'a');
+        $rsm->addFieldResult('a', 'id', 'id');
+        $query = $this->em->createNativeQuery("SELECT id FROM articles WHERE MATCH (slug_name) AGAINST ('{$title}') LIMIT {$page}, {$perPage}", $rsm);
+        $users = $query->getArrayResult();
+        if ($users) {
+            $qb = $this->em->createQueryBuilder();
+            $qb->select('a')->from('Entity\Articles', 'a')->where($qb->expr()->in('a.id', array_column($users, 'id')));
+            return $qb->getQuery()->getResult();
+        } else {
+            return null;
+        }
     }
 
     public function getAll($page = null, $totalRecord = null, $perPage = null) {
@@ -256,11 +273,12 @@ class Article_model extends Base_model {
         }
     }
 
-    public function getArticleSticky() {        
+    public function getArticleSticky() {
         $qb = $this->em->createQueryBuilder();
         $qb->select('a')
                 ->from('Entity\Articles', 'a')
                 ->where('a.sticky = 1');
         return $qb->getQuery()->getResult();
     }
+
 }

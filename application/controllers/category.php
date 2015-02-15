@@ -6,7 +6,7 @@ class category extends MY_Controller {
         $this->load->model('category_model');
         $data['allCategories'] = $this->category_model->getAll();
         $data['maxArticlePerCategory'] = MAX_ARTICLE_PER_CATEGORY;
-        $this->load->view('layout/header');
+        $this->load->view('layout/header', $data);
         $this->load->view('category/index', $data);
         $this->load->view('layout/footer');
     }
@@ -19,7 +19,7 @@ class category extends MY_Controller {
                 show_error('Danh mục không tìm thấy');
             }
             $data['maxArticlePerCategory'] = count($data['allCategories'][0]->getArticles());
-            $this->load->view('layout/header');
+            $this->load->view('layout/header', $data);
             $this->load->view('category/index', $data);
             $this->load->view('layout/footer');
         } else {
