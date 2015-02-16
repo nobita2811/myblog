@@ -48,4 +48,26 @@ class Files extends MY_Controller {
         $this->load->view('admin/common/footer', $data);
     }
 
+    public function upload() {
+        if ($_FILES) {
+            $this->load->library('upload', $this->configUpload);
+            $arrReturn = [];
+            if ($this->upload->do_upload()) {
+                // save image                
+                $arrReturn['name'] = $this->upload->file_name;
+                $arrReturn['link'] = getUpload($this->upload->file_name, 0);
+                $arrReturn['size'] = $this->upload->file_size;
+                $arrReturn['error'] = false;
+            } else {
+                $arrReturn['error'] = $this->upload->display_errors();
+            }
+            echo json_encode($arrReturn);
+        } else {
+            $this->load->view('admin/common/header');
+            $this->load->view('admin/file/upload');
+            $this->load->view('admin/common/footer');
+            $this->load->view('admin/file/uploadCssJs');
+        }
+    }
+
 }
