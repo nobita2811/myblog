@@ -21,13 +21,13 @@ function getAllArticle(link) {
 function addReply(commentId) {
     $('#form-comment').addClass('form-comment-background');
     $('.form-show-reply').html('');
-    $('input[name="comment"').val(commentId);
+    $('#form-comment-id').val(commentId);
     $('.form-show-reply').html('Trả lời bài #' + commentId + '<span class="btn-remove-reply" onclick="removeReply()">Hủy</span>');
     $('#form-content').focus();
 }
 
 function removeReply() {
     $('#form-comment').removeClass('form-comment-background');
-    $('input[name="comment"').val('');
+    $('#form-comment-id').val('');
     $('.form-show-reply').html('');
 }
