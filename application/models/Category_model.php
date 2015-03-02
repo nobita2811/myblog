@@ -14,8 +14,20 @@ class Category_model extends Base_model {
         return $this->em->getRepository('Entity\Categories')->find($id);
     }
 
-    public function getAllBySlugName($slug_name) {
+    public function getAllBySlugName($slug_name, $page = null, $totalRecord = null, $perPage = null) {
         $condition = ['slugName' => $slug_name];
+        if(isset($page, $totalRecord, $perPage)) {
+            $qb = $this->em->createQueryBuilder();
+            $qb->select('a')
+                    ->from('Entity\Articles', 'a')
+                    ->leftJoin('a.categories', 'cs')
+                    ->leftJoin('cs.category', 'c')
+                    ->where('c.slugName = \''.$slug_name.'\'')
+                    ->orderBy('a.id', 'DESC')
+                    ->setFirstResult($page)
+                    ->setMaxResults($perPage);
+            return $qb->getQuery()->getResult();
+        }
         return $this->em->getRepository('Entity\Categories')->findBy($condition);
     }
     

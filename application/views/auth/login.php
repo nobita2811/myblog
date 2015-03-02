@@ -32,4 +32,9 @@
 
 <?php echo form_close(); ?>
 
-<p><a href="forgot_password"><span class="glyphicon glyphicon-question-sign"></span> <?php echo lang('login_forgot_password'); ?></a></p>
+<p>
+    <a href="forgot_password"><span class="glyphicon glyphicon-question-sign"></span> <?php echo lang('login_forgot_password'); ?></a>
+</p>
+<p>
+    <a href="<?= $login_url ?>"><span class="glyphicon glyphicon-flag"></span> Đăng nhập bằng facebook</a>
+</p>

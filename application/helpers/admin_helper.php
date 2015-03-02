@@ -1,5 +1,7 @@
 <?php
+
 require_once 'link_helper.php';
+
 function ip_info($ip = NULL, $purpose = "location", $deep_detect = TRUE) {
     $output = NULL;
     if (filter_var($ip, FILTER_VALIDATE_IP) === FALSE) {
@@ -100,35 +102,37 @@ function getTagNav($column) {
     $tags = $CI->tag_model->getAll();
     $allTags = count($tags);
     $maxTagInColumn = ceil($allTags / 3);
-    $columnTags = array_slice($tags, (($column-1) * $maxTagInColumn), $maxTagInColumn);
+    $columnTags = array_slice($tags, (($column - 1) * $maxTagInColumn), $maxTagInColumn);
     $html = '';
     foreach ($columnTags AS $tag) {
         $html .= '<li><a href="' . base_url('/tag/view/' . $tag->getSlugName()) . '">' . $tag->getName() . '</a></li>';
     }
     return $html;
 }
+
 function getArticleSticky() {
     global $CI;
     $CI->load->model('article_model');
     $articles = $CI->article_model->getArticleSticky();
     $html = '';
     foreach ($articles AS $article) {
-        $html .= '<li><span><img src="'.  ($article->getFile() ? getUpload($article->getFile()->getFileName(), 0) : getUpload('', 0)).'" class="img-responsive img-last-view"></span><a href="' . base_url('/article/view/' . $article->getSlugName()) . '">' . $article->getTitle() . '</a></li>';
+        $html .= '<li><span><img src="' . ($article->getFile() ? getUpload($article->getFile()->getFileName(), 0) : getUpload('', 0)) . '" class="img-responsive img-last-view"></span><a href="' . base_url('/article/view/' . $article->getSlugName()) . '">' . $article->getTitle() . '</a></li>';
     }
     return $html;
 }
+
 function getLastArticleViewed() {
     global $CI;
     $CI->load->model('article_model');
     $articles = $CI->article_model->getLastArticleViewed();
-    if($CI->session->userdata('user_id')) {       
+    if ($CI->session->userdata('user_id')) {
         $html = '';
-        if(!count($articles)) {
+        if (!count($articles)) {
             return '<li>Bạn chưa xem bài nào cả!</li>';
         } else {
             foreach ($articles AS $article) {
                 $time = date_diff(new DateTime(), $article->getCreated())->format('%R%h giờ');
-                $html .= '<li><span><img src="'.  ($article->getArticle()->getFile() ? getUpload($article->getArticle()->getFile()->getFileName(), 0) : getUpload('', 0)).'" class="img-responsive img-last-view"></span><a href="' . base_url('/article/view/' . $article->getArticle()->getSlugName()) . '">' . $article->getArticle()->getTitle() . '</a> <i>'.$time.'</i></li>';
+                $html .= '<li><span><img src="' . ($article->getArticle()->getFile() ? getUpload($article->getArticle()->getFile()->getFileName(), 0) : getUpload('', 0)) . '" class="img-responsive img-last-view"></span><a href="' . base_url('/article/view/' . $article->getArticle()->getSlugName()) . '">' . $article->getArticle()->getTitle() . '</a> <i>' . $time . '</i></li>';
             }
             return $html;
         }
@@ -136,7 +140,8 @@ function getLastArticleViewed() {
         return '<li>Bạn chưa đăng nhập!</li>';
     }
 }
-function _setMailConfig(&$mail) {    
+
+function _setMailConfig(&$mail) {
     $mail->IsSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'smtp.gmail.com';                 // Specify main and backup server
     $mail->Port = 587;                                    // Set the SMTP port
@@ -145,13 +150,14 @@ function _setMailConfig(&$mail) {
     $mail->Password = '6z86zacC';                  // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
     $mail->From = 'sujupro@gmail.com';
-    $mail->FromName = 'PhuTX.VN';
+    $mail->FromName = 'PhuTX.INFO';
 }
-function sendMail($address = [], $subject = '', $body = '') {    
+
+function sendMail($address = [], $subject = '', $body = '') {
     $mail = new PHPMailer;
     _setMailConfig($mail);
-    if($address) {
-        foreach($address AS $ad) {
+    if ($address) {
+        foreach ($address AS $ad) {
             $mail->AddAddress($ad);               // Name is optional            
         }
     } else {
@@ -159,27 +165,39 @@ function sendMail($address = [], $subject = '', $body = '') {
     }
     $mail->IsHTML(true);
     $mail->CharSet = 'UTF-8';
-    if($subject) {
+    if ($subject) {
         $mail->Subject = $subject;
     } else {
-        return ['status' => false, 'msg' => 'no subject'];        
+        return ['status' => false, 'msg' => 'no subject'];
     }
-    if($body) {
-        $mail->Body    = $body;
+    if ($body) {
+        $mail->Body = $body;
     } else {
-        return ['status' => false, 'msg' => 'no body'];        
+        return ['status' => false, 'msg' => 'no body'];
     }
     if (!$mail->send()) {
-        return ['status' => false, 'msg' => $mail->ErrorInfo];   
+        return ['status' => false, 'msg' => $mail->ErrorInfo];
     } else {
         return ['status' => true, 'msg' => ''];
     }
 }
+
 function getTitle($vars) {
     global $CI;
 //    dv($vars);
-    if(isset($vars['article']) && is_object($vars['article'])) {
-        return ' - '.$vars['article']->getTitle();
+    if (isset($vars['article']) && is_object($vars['article'])) {
+        return ' - ' . $vars['article']->getTitle();
     }
     return $CI->uri->uri_string ? ' - ' . $CI->uri->uri_string : ' - Trang Chủ';
+}
+
+function get_weather($ip) {
+    $address = ip_info($_SERVER['REMOTE_ADDR'], "Address");
+    $data = @json_decode(file_get_contents("http://api.openweathermap.org/data/2.5/weather?q={$address}&units=metric&cnt=7&lang=vi"));
+//    dv($data->cod); return;
+    if ($data->cod !== '404') {
+        return $data;
+    } else {
+        return 'Không có dữ liệu';
+    }
 }

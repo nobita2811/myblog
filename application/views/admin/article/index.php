@@ -17,7 +17,7 @@
                     <thead>
                         <tr>
                             <th></th>
-                            <th style="width: 140px;">Ảnh</th>
+                            <th>Ảnh</th>
                             <th>Tên bài viết</th>
                             <th>Người đăng</th>
                             <th>Ngày đăng</th>
@@ -36,7 +36,7 @@
                                     <td>
                                         <a class="button-link" href="'.  $deleteLink . '/' . $item->getSlugName().'">Delete</a><br><br>'
                                     . '<a class="button-link" href="'.  $deleteEdit . '/' . $item->getSlugName().'">Edit</a></td>
-                                    <td><img src="'.$img.'" class="img-responsive img-thumbnail"></td>
+                                    <td style="max-width: 140px;"><img src="'.$img.'" class="img-responsive img-thumbnail"></td>
                                     <td><a href="'.  base_url('/article/view/'.$item->getSlugName()).'" target="_blank">'.$item->getTitle().'</a></td>
                                     <td>'.$item->getUser()->getUsername().'</td>
                                     <td>'.$item->getCreated()->format('d/m/Y').'</td>

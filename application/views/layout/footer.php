@@ -12,7 +12,10 @@
 					 <address> <strong>TRAN PHU, Inc.</strong><br /> 33 Ngõ Quỳnh - Bạch Mai<br /> Hai Bà Trưng - Hà Nội<br /> <abbr title="Phone">Điện thoại:</abbr> (097) 9930-752<br /> <abbr title="Email">Email:</abbr> svtxphu@gmail.com</address>
 				</div>
 				<div class="col-md-4 column">
-					 <address> <strong>TRAN PHU, Inc.</strong><br /> 33 Ngõ Quỳnh - Bạch Mai<br /> Hai Bà Trưng - Hà Nội<br /> <abbr title="Phone">Điện thoại:</abbr> (097) 9930-752<br /> <abbr title="Email">Email:</abbr> svtxphu@gmail.com</address>
+                                    Copyright © <?= date('Y'); ?> PhuTX.INFO<br>
+                                    All Rights Reserved.<br>
+                                    Địa chỉ IP của bạn: <?= $_SERVER['REMOTE_ADDR'] . ip_info($_SERVER['REMOTE_ADDR'], "Address"); ?><br>
+                                    Thời tiết: <?= get_weather($_SERVER['REMOTE_ADDR']); ?>
 				</div>
 			</div>
 		</div>

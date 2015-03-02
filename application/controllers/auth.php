@@ -43,11 +43,16 @@ class Auth extends MY_Controller {
     //log the user in
     function login() {
         $this->data['title'] = "Login";
-
+        $this->_facebook();
         //validate form input
         $this->form_validation->set_rules('identity', 'Identity', 'required');
         $this->form_validation->set_rules('password', 'Password', 'required');
 
+        if($this->session->userdata('identity')) {            
+            $this->session->set_flashdata('message', $this->ion_auth->messages());
+            redirect('/', 'refresh');
+        }
+        
         if ($this->form_validation->run() == true) {
             //check to see if the user is logging in
             //check for "remember me"
@@ -83,8 +88,40 @@ class Auth extends MY_Controller {
         }
     }
 
+    private function _facebook() {
+        $this->load->library('facebook'); // Automatically picks appId and secret from config
+        // OR
+        // You can pass different one like this
+        //$this->load->library('facebook', array(
+        // 'appId' => 'APP_ID',
+        // 'secret' => 'SECRET',
+        // ));
+        $user = $this->facebook->getUser();
+        if ($user) {
+            try {
+                dv($user);
+                dv($this->facebook->api('/me'));
+                die('ok');
+            } catch (FacebookApiException $e) {
+                $user = null;
+            }
+        } else {
+            $this->facebook->destroySession();
+        }
+        if (!$user) {
+            $this->data['login_url'] = $this->facebook->getLoginUrl(array(
+                'redirect_uri' => site_url('auth/login'),
+                'scope' => array("email") // permissions here
+            ));
+        }
+    }
+
     //log the user out
     function logout() {
+        $this->load->library('facebook');
+        // Logs off session from website
+        $this->facebook->destroySession();
+
         $this->data['title'] = "Logout";
 
         //log the user out
@@ -381,22 +418,22 @@ class Auth extends MY_Controller {
             //check to see if we are creating the user
             //redirect them back to the admin page
             $this->session->set_flashdata('message', $this->ion_auth->messages());
-            $body = '<h1>Hi!</h1>Tài khoản của bạn tại <b>http://phutx.vn</b>:<br>'
+            $body = '<h1>Hi!</h1>Tài khoản của bạn tại <b>http://phutx.info</b>:<br>'
                     . '<br>Tên đăng nhập: ' . $this->input->post('email')
                     . '<br>Mật khẩu: ' . $this->input->post('password')
-                    . '<br><i>best regards!</i><br>PhuTX.VN';
-            sendMail([$this->input->post('email')], 'Thư chào mừng thành viên mới từ phutx.vn', $body);
+                    . '<br><i>best regards!</i><br>PhuTX.INFO';
+            sendMail([$this->input->post('email')], 'Thư chào mừng thành viên mới từ phutx.info', $body);
             redirect("auth", 'refresh');
         } else {
             $builder = new CaptchaBuilder;
             $builder->build();
             $this->session->set_userdata('captcha', $builder->getPhrase());
             $this->data['builder'] = $builder;
-            
+
             //display the create user form
             //set the flash data error message if there is one
             $this->data['message'] = (validation_errors() ? validation_errors() : ($this->ion_auth->errors() ? $this->ion_auth->errors() : $this->session->flashdata('message')));
-            $this->data['message'] .= !$checkCaptcha ? 'Error captcha.' : '';
+            $this->data['message'] .=!$checkCaptcha ? 'Error captcha.' : '';
             $this->data['first_name'] = array(
                 'name' => 'first_name',
                 'id' => 'first_name',

@@ -129,7 +129,7 @@ define('RESOURCE_PATH', FCPATH . RS);
 define('VENDOR_PATH', FCPATH . VD);
 
 // for template
-define('TITLE', 'PhuTX');
+define('TITLE', 'PhuTX.INFO');
 define('DESCRIPTIONS', 'php,domain,hosting');
 define('KEY_WORDS', 'php,domain,hosting');
 define('AUTHOR', 'svtxphu@gmail.com');
