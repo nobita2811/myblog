@@ -191,12 +191,18 @@ function getTitle($vars) {
     return $CI->uri->uri_string ? ' - ' . $CI->uri->uri_string : ' - Trang Chủ';
 }
 
+function getQuotation() {
+    global $CI;
+    $CI->load->model('quotation_model');
+    return $CI->quotation_model->get()->getContent();
+}
+
 function get_weather($ip) {
-    $address = ip_info($_SERVER['REMOTE_ADDR'], "Address");
-    $data = @json_decode(file_get_contents("http://api.openweathermap.org/data/2.5/weather?q={$address}&units=metric&cnt=7&lang=vi"));
-//    dv($data->cod); return;
+    $address = ip_info($_SERVER['REMOTE_ADDR']);
+	
+    $data = @json_decode(file_get_contents("http://api.openweathermap.org/data/2.5/weather?q={$address['city']},{$address['country_code']}&units=metric&cnt=7&lang=vi"));
     if ($data->cod !== '404') {
-        return $data;
+        return $data->main->temp . '°C, ' . $data->weather[0]->description;
     } else {
         return 'Không có dữ liệu';
     }

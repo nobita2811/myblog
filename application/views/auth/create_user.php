@@ -63,3 +63,6 @@
 </div>
 
 <?php echo form_close(); ?>
+<p>
+    <a href="<?= $login_url ?>"><span class="glyphicon glyphicon-flag"></span> Đăng nhập bằng facebook</a>
+</p>

@@ -44,3 +44,4 @@ $tags = isset($tags) ? $tags : [];
         <span class="glyphicon glyphicon-user"></span> Bởi <?= $article->getUser()->getUsername(); ?>
     </p>
 </div>
+<div class="fb-comments" data-href="<?= "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?> data-width="100%" data-numposts="5" data-colorscheme="light"></div>

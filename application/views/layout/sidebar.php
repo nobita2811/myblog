@@ -8,6 +8,7 @@
         </div><!-- /input-group -->
         <div class="clearfix"></div>
     </form>
+    <div class="clearfix"></div>
         <span class='small'>Nhập tiếng việt không dấu sẽ cho kết quả chính xác</span>
     <hr>
     <ul class="list-unstyled">

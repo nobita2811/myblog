@@ -7,7 +7,7 @@ class Settings extends MY_Controller {
     }
 
     public function index() {
-        $this->load->view('admin/common/header');
+        $this->load->view('admin/common/header');        
         $this->load->view('admin/setting/index');
         $this->load->view('admin/common/footer');
     }
@@ -20,6 +20,18 @@ class Settings extends MY_Controller {
             $this->session->set_flashdata('result', 'fail');
         }
         redirect('/admin/settings/index');
+    }
+
+    public function quotation() {
+        $this->load->view('admin/common/header');
+        $this->load->view('admin/setting/quotation');
+        $this->load->view('admin/common/footer');
+        if ($this->input->post()) {
+            $this->load->model('quotation_model');
+            $this->quotation_model->save($this->input->post('content'));
+            $this->session->set_flashdata('result', 'success');
+            redirect('/admin/settings/index');
+        }
     }
 
 }
